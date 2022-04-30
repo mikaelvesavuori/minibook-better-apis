@@ -17,7 +17,7 @@ Werner Vogels, legendary CTO of Amazon, [states his API rules like this](https:/
 
 In practice, how can we begin moving towards those ideals?
 
-This repo presents an application ("start" and "finish" formats) and a made-up but real-ish scenario that, taken together, practically demonstrate a range of techniques or methods, patterns, implementations, as well as tools, that all help enhance quality, stability, and observability of applications:
+This repo presents an application and a made-up (but "real-ish") scenario that, taken together, practically demonstrate a range of techniques or methods, patterns, implementations, as well as tools, that all help enhance quality, stability, and observability of applications:
 
 **Quality** means our applications are well-built, functional, safe and secure, maintainable, and are built to high standards.
 
