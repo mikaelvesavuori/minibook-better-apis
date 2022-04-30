@@ -1,4 +1,4 @@
-# Test automation in CI
+# 🏭 Test automation in CI
 
 First, let's look at what I call "defensive testing", that is, any typical testing that we do to test the resiliency and functionality of our solution.
 
@@ -8,7 +8,7 @@ We need to establish clear boundaries and expectations of where our work ends, a
 
 Next up, we set up contract testing, using [TripleCheck CLI](https://github.com/mikaelvesavuori/triplecheck-cli). Contract testing means that we can easily verify if our assumptions of services and their interfaces are correct.
 
-_For wider scale and bigger system landscapes, consider using the [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) to be able to store and load contracts from a centralized source._
+_For wider scale and bigger system landscapes, consider using the_ [_TripleCheck broker_](https://github.com/mikaelvesavuori/triplecheck-broker) _to be able to store and load contracts from a centralized source._
 
 **🎯 Example 2**: See `triplecheck.config.json` and the GitHub documentation linked above.
 

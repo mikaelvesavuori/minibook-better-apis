@@ -1,4 +1,4 @@
-# Make your processes known
+# 📝 Make your processes known
 
 This is step zero, so to speak.
 

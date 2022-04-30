@@ -1,4 +1,4 @@
-# Generate documentation
+# 📜 Generate documentation
 
 While it would be unrealistic to say that you shouldn't need to write documentation, we can at least get to the point where documentation (given that some exist) can be generated and output through automation.
 
@@ -10,7 +10,7 @@ Then, we use [TypeDoc](https://typedoc.org) for generating docs from the source 
 
 **🎯 Example 2**: You can generate documentation into the `typedoc-docs` folder by running `npm run docs`. These are the documents uploaded to [the static website](https://better-apis-workshop.pages.dev) as well.
 
-For diagrams, we use [Arkit](https://arkit.pro/) for generating diagrams from your software architecture.
+For diagrams, we use [Arkit](https://arkit.pro) for generating diagrams from your software architecture.
 
 **🎯 Example 3**: See the Arkit diagrams above. Just as above, generate them with `npm run docs`.
 

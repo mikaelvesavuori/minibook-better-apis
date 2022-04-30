@@ -1,4 +1,4 @@
-# Beta functionality
+# 🆕 Beta functionality
 
 We have built-in a "beta functionality" concept that is propagated from toggles into our services. This is a catch-all for new features that we want to test, and which may not yet be ready for wider release. This means that our services need to have distinct checks for this.
 

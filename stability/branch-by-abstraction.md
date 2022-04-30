@@ -1,8 +1,8 @@
-# Branch by abstraction
+# 🧬 Branch by abstraction
 
 In Paul Hammant's words:
 
-> [Branch] by abstraction instead of by [code] branching in source control. And no, that doesn't mean sprinkle conditionals into your source code, it means to use an abstraction concept that's idiomatic for the programming language you are using.
+> \[Branch] by abstraction instead of by \[code] branching in source control. And no, that doesn't mean sprinkle conditionals into your source code, it means to use an abstraction concept that's idiomatic for the programming language you are using.
 
 It's a methodical, very practical thing too:
 

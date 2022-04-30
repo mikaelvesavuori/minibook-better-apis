@@ -1,4 +1,4 @@
-# Alerting
+# 🔔 Alerting
 
 Alerts (or alarms; same thing) are usually connected to metrics. When the metric is triggered, the alert goes off.
 

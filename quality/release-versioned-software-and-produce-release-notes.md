@@ -1,4 +1,4 @@
-# Release versioned software and produce release notes
+# 📝 Release versioned software and produce release notes
 
 Each release should be uniquely versioned. We should also keep release notes, but it's one of those things that can be easy to miss.
 

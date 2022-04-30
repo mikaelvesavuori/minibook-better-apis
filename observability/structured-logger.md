@@ -1,4 +1,4 @@
-# Structured logger
+# 🪵 Structured logger
 
 Another best practice is to treat logs as a source of data rather than as individual strings. To do so, we need to have a structured approach to outputting them. In this project, we'll use a handcrafted logging utility to help us do this in an easy way that nobody can fail using correctly.
 
@@ -6,7 +6,7 @@ I've provided a basic one that also uses `getUserMetadata()` to get metadata (co
 
 **🎯 Example**: See `src/FakeUser/frameworks/Logger.ts`. Implementation is as simple as importing it and then:
 
-```TypeScript
+```
 const logger = new Logger();
 logger.log('My message!');
 logger.warn('My warning!');

@@ -1,4 +1,4 @@
-# Generate a software bill of materials
+# 🧾 Generate a software bill of materials
 
 We need to understand what our software is composed of—this is called "software composition analysis" (SCA).
 
