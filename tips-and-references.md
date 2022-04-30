@@ -1,13 +1,12 @@
 # Tips and references
 
-This list may contain some links from the main sections but is intended primarily as a set of additional readings.
-
 ## Books
 
 - [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), by Nicole Forsgren, Jez Humble, Gene Kim
 - [Building Microservices: Designing Fine-Grained Systems (2nd Edition)](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1492034029), by Sam Newman
 - [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Back-to-Basics/dp/B08X7FWCZM), by Robert Martin
 - [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164), by Robert Martin
+- [Clean Craftsmanship: Disciplines, Standards, and Ethics](https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X), by Robert Martin
 - [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), by Robert Martin
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612), by Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 - [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) by Eric Evans
