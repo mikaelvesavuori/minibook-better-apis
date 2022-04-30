@@ -1,4 +1,4 @@
-# Weighing the negatives between a hardware- or a software-oriented approach
+# Weighing between a hardware- or a software-oriented approach
 
 ## 🖥️ The drawbacks of hardware-segregated environments
 
