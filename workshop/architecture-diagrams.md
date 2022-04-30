@@ -2,7 +2,7 @@
 
 ## Solution diagram
 
-![Architecture diagram](/diagrams/better-apis-diagram.png "Architecture diagram")
+![Architecture diagram](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/diagrams/better-apis-diagram.png"Architecture diagram")
 
 ## Deployment diagram
 
