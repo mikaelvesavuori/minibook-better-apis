@@ -14,7 +14,7 @@ This is possible to do two ways, either _with_ or _without_ code, as is needed b
 
 or
 
-**⏳ Suggested timeframe (with code)**: 2 hours. You can start from `src/FakeUserBasic/`.
+**⏳ Suggested timeframe (with code)**: 2 hours. You can start from [`src/FakeUserBasic/index.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUserBasic/index.ts).
 
 The output should be a diagram or other visual artifact, and if also coding, a set of code that demonstrates a full or partial solution.
 

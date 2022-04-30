@@ -21,6 +21,6 @@ It's a methodical, very practical thing too:
 8. Lastly, delete old implementations and the abstraction itself (essential follow up work)
 ```
 
-**🎯 Example**: While our example might be too lightweight, we do have a "beta" version and a "current" version as two code paths (see `src/FakeUser/controllers/FakeUserController.ts`, lines 37-44), abstracted via the controller. Effectively, we are—even in this contrived example—making it easy and possible to work together with both new and old code without too much risk. Taking this thinking further, it's possible to solve vastly more complex situations just as well.
+**🎯 Example**: While our example might be too lightweight, we do have a "beta" version and a "current" version as two code paths (see [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts), lines 37-44), abstracted via the controller. Effectively, we are—even in this contrived example—making it easy and possible to work together with both new and old code without too much risk. Taking this thinking further, it's possible to solve vastly more complex situations just as well.
 
 Refer to the [Branch by Abstraction website](https://www.branchbyabstraction.com).

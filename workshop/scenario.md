@@ -8,6 +8,8 @@ You are supporting your friends, who are making a new social online game, by pro
 
 The code is as simple as:
 
+{% code title="src/FakeUserBasic/index.ts" %}
+
 ```TypeScript
 import { APIGatewayProxyEvent, Context, APIGatewayProxyResult } from 'aws-lambda';
 
@@ -34,7 +36,9 @@ export async function handler(
 }
 ```
 
-_Refer to [src/FakeUserBasic/index.ts](/src/FakeUserBasic/index.ts) for the above code._
+{% endcode %}
+
+_Refer to [src/FakeUserBasic/index.ts](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUserBasic/index.ts) for the above code._
 
 Now, things are starting to become more involved:
 
