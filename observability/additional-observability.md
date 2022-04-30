@@ -20,12 +20,16 @@ If you want to try Honeycomb with this project, it's pretty easy if we use their
 
 Install [`bunyan`](https://github.com/trentm/node-bunyan) and its typings with `npm install bunyan @types/bunyan`.
 
-Open up `src/FakeUser/frameworks/Logger.ts` and add this to the top of the file:
+Open up [`src/FakeUser/frameworks/Logger.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/frameworks/Logger.ts) and add this to the top of the file:
 
+{% code title="src/FakeUser/frameworks/Logger.ts" %}
+
+```typescript
+import bunyan from "bunyan";
+const log = bunyan.createLogger({ name: "better-apis-workshop" });
 ```
-import bunyan from 'bunyan';
-const log = bunyan.createLogger({ name: 'better-apis-workshop' });
-```
+
+{% endcode %}
 
 For the `log()`, `warn()` and `error()` methods, change the existing `console.log()`-dependent implementation lines to: `log.info(createdLog);`, `log.warn(createdLog);` and `log.error(createdLog);`, respectively.
 
