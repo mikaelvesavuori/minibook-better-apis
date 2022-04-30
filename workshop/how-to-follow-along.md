@@ -50,7 +50,7 @@ Go to the [Bump website](https://bump.sh) and create a free account and get your
 
 We will use [Mockachino](https://www.mockachino.com) as a super-simple mock backend for our feature toggles. This way we can continuously change the values without having to redeploy a service or anything else.
 
-It's really easy to set up: Go to the website and paste this payload into the `HTTP Response Body`:
+It's really easy to set up. Go to the website and paste this payload into the `HTTP Response Body`:
 
 ```json
 {
@@ -133,8 +133,8 @@ You'll need a few [secrets](https://docs.github.com/en/actions/security-guides/e
 
 - `AWS_ACCESS_KEY_ID`: Your AWS access key ID for a deployment user
 - `AWS_SECRET_ACCESS_KEY`: Your AWS secret access key for a deployment user
-- `FAKE_USER_ENDPOINT`: Your AWS endpoint for the FakeUser service, in the format "https://RANDOM.execute-api.REGION.amazonaws.com/shared/fakeUser" (known after the first deployment)
-- `MOCKACHINO_ENDPOINT`: Your Mockachino endpoint for feature toggles, in the format "https://www.mockachino.com/RANDOM/toggles"
+- `FAKE_USER_ENDPOINT`: Your AWS endpoint for the FakeUser service, in the format `https://RANDOM.execute-api.REGION.amazonaws.com/shared/fakeUser` (known after the first deployment)
+- `MOCKACHINO_ENDPOINT`: Your Mockachino endpoint for feature toggles, in the format `https://www.mockachino.com/RANDOM/toggles`
 - `BUMP_TOKEN`: Your token for [Bump](https://bump.sh) which will hold your API docs (just skip if you don't want to use it; also remove from the CI script in that case)
 
 ### Optional: Deploy documentation to the web
