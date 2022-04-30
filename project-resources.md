@@ -1,0 +1,3 @@
+# Project resources
+
+Feel free to check out the [generated static website on Cloudflare Pages](https://better-apis-workshop.pages.dev) and the [API docs on Bump](https://bump.sh/doc/better-apis-workshop).

@@ -1,6 +1,21 @@
 # Table of contents
 
 - [Start](README.md)
+
+1. [What is this?](#what-is-this)
+2. [Project resources](#project-resources)
+3. [Prior art](#prior-art)
+4. [How to follow along](#how-to-follow-along)
+5. [Context](#context)
+6. [Scenario](#scenario)
+7. [Workshop assignment](#workshop-assignment)
+8. [My solution pitch](#my-solution-pitch)
+9. [The application](#the-application)
+10. [Architecture diagrams](#architecture-diagrams)
+11. [Technical components](#technical-components)
+12. [API documentation](#api-documentation)
+13. [Implementation patterns and principles](#implementation-patterns-and-principles)
+
 - [Quality](quality.md)
   - 📝 [Make your processes known](quality/make-your-processes-known.md)
   - 🧱 [SOLID principles](quality/solid-principles.md)
@@ -34,3 +49,5 @@
   - 🛎️ [Alerting](observability/alerting.md)
   - 📇 [Service discoverability and metadata](observability/service-discoverability-and-metadata.md)
   - 👁️ [Additional observability](observability/additional-observability.md)
+
+14. [Tips and references](#tips-and-references)
