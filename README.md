@@ -33,6 +33,6 @@ Of the three above concepts, _stability_ is the most misunderstood one, and it w
 
 {% hint style='info' %}
 
-**Caveat**: No single example can fully encompass all details involved in such a complex territory as this, but at least I will give it a try!\_
+**Caveat**: No single example can fully encompass all details involved in such a complex territory as this, but at least I will give it a try!
 
 {% endhint %}

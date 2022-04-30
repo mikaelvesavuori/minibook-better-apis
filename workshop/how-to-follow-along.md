@@ -10,7 +10,7 @@ You can...
 
 or
 
-- **Do the workshop part**: Clone the repo, run `npm install` and `npm start`, then read about the patterns and try it out in your own self-paced way.
+- **Do this as a full-on workshop**: Clone the repo, run `npm install` and `npm start`, then read about the patterns and try it out in your own self-paced way.
 
 ## Commands
 
@@ -54,6 +54,10 @@ It's really easy to set up: Go to the website and paste this payload into the `H
 
 ```json
 {
+  "error": {
+    "enableBetaFeatures": false,
+    "userGroup": "error"
+  },
   "legacy": {
     "enableBetaFeatures": false,
     "userGroup": "legacy"
