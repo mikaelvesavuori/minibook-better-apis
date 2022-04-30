@@ -6,18 +6,18 @@
 
 ## Deployment diagram
 
-![Deployment diagram](/diagrams/deployment.png "Deployment diagram")
+![Deployment diagram](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/diagrams/deployment.png "Deployment diagram")
 
 ## Microservices
 
 ### FakeUser
 
-![FakeUser](/diagrams/arkit-fakeuser.svg "FakeUser")
+![FakeUser](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/diagrams/arkit-fakeuser.svg "FakeUser")
 
 ### FakeUserBasic
 
-![FakeUser](/diagrams/arkit-fakeuserbasic.svg "FakeUserBasic")
+![FakeUser](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/diagrams/arkit-fakeuserbasic.svg "FakeUserBasic")
 
 ### FeatureToggles
 
-![FeatureToggles](/diagrams/arkit-toggles.svg "FeatureToggles")
+![FeatureToggles](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/diagrams/arkit-toggles.svg "FeatureToggles")
