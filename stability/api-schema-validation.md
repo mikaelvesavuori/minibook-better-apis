@@ -12,4 +12,21 @@ Once again, since we have a manual approach, any validation schemas need to be h
 
 We only use validators for POST requests, which means the FeatureToggles function is in scope, but not the FakeUser function.
 
-**🎯 Example**: See `api/FeatureToggles.validator.json`. It's attached to our feature toggles function in `serverless.yml` on lines 96-98.
+**🎯 Example**: See [`api/FeatureToggles.validator.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/api/FeatureToggles.validator.json). It's attached to our feature toggles function in `serverless.yml` on lines 96-98.
+
+{% code title="serverless.yml" %}
+
+```yml
+FeatureToggles:
+  handler: src/FeatureToggles/controllers/FeatureTogglesController.handler
+  description: Feature toggles
+  events:
+    - http:
+        method: POST
+        path: /featureToggles
+        request:
+          schema:
+            application/json: ${file(api/FeatureToggles.validator.json)}
+```
+
+{% endcode %}
