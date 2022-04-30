@@ -1,2 +1,0 @@
-# Implementation patterns and principles
-
