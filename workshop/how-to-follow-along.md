@@ -94,9 +94,9 @@ You will get a "space" in which you can administer and edit the mock API. You'll
 
 ### 3. First deployment to AWS using Serverless Framework
 
-Install all dependencies with `npm install`, set up [husky](https://github.com/typicode/husky) pre-commits with `npm run prepare`, then make a first deployment from your machine with `npm run deploy`.
+Install all dependencies with `npm install`, set up [husky](https://github.com/typicode/husky) pre-commits with `npm run prepare`, then make the first deployment from your machine with `npm run deploy`.
 
-We do this so that the dynamic endpoints are known to us; we have a logical dependency to these when it comes to the test automation.
+We do this so that the dynamic endpoints are known to us; we have a logical dependency on these when it comes to our test automation.
 
 **Copy the endpoints to the functions.**
 
@@ -106,7 +106,7 @@ Next, update the environment value in `serverless.yml` (around lines 35-36) to r
 
 ```
 environment:
-  TOGGLES_URL: https://www.mockachino.com/YOUR_RANDOM_STRING/toggles
+ TOGGLES_URL: https://www.mockachino.com/YOUR_RANDOM_STRING/toggles
 ```
 
 Next, also update the following files to reflect your Mockachino endpoint:
@@ -135,7 +135,7 @@ You'll need a few [secrets](https://docs.github.com/en/actions/security-guides/e
 - `AWS_SECRET_ACCESS_KEY`: Your AWS secret access key for a deployment user
 - `FAKE_USER_ENDPOINT`: Your AWS endpoint for the FakeUser service, in the format `https://RANDOM.execute-api.REGION.amazonaws.com/shared/fakeUser` (known after the first deployment)
 - `MOCKACHINO_ENDPOINT`: Your Mockachino endpoint for feature toggles, in the format `https://www.mockachino.com/RANDOM/toggles`
-- `BUMP_TOKEN`: Your token for [Bump](https://bump.sh) which will hold your API docs (just skip if you don't want to use it; also remove from the CI script in that case)
+- `BUMP_TOKEN`: Your token for [Bump](https://bump.sh) which will hold your API docs (just skip if you don't want to use it; also remove it from the CI script in that case)
 
 ### Optional: Deploy documentation to the web
 
@@ -149,6 +149,6 @@ _You can certainly use something like [Netlify](https://github.com/marketplace/a
 
 ### 5. Deploy the complete project
 
-You can now deploy the project manually or through CI, now that all of the configuration is setup.
+You can now deploy the project manually or through CI, now that all of the configurations are done.
 
 Great work!
