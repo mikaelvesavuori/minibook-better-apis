@@ -8,13 +8,17 @@ We're at the very basics when it comes to classic [agile](https://en.wikipedia.o
 
 {% hint style='info' %}
 
-_For more on the relation between delivery and deployment etc,_ [_read this article_](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)_._
+For more on the relation between delivery and deployment etc, [read this article by Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment).
 
 {% endhint %}
 
 Thankfully, there's beginning to be some standardization around what high performance in technology delivery actually means, driven primarily by the [DORA research program](https://www.devops-research.com/research.html) and related books like [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), by Nicole Forsgren, Jez Humble, and Gene Kim.
 
-_Tip: You can take a simple test, called the_ [_DORA DevOps Quick Check_](https://www.devops-research.com/quickcheck.html) _to check your DORA performance metrics._
+{% hint style='info' %}
+
+Tip: You can take a simple test, called the [DORA DevOps Quick Check](https://www.devops-research.com/quickcheck.html) to check your DORA performance metrics.
+
+{% endhint %}
 
 To get here we should also opt for [small releases](https://explainagile.com/agile/xp-extreme-programming/practices/small-releases/) and having a [limit on work-in-progress](https://www.atlassian.com/agile/kanban/wip-limits).
 
