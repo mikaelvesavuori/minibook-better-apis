@@ -10,7 +10,30 @@ You'll often see tutorials and such talking about [authentication](https://auth0
 
 _Authentication is entirely out of scope here, whereas trivial authorization IS in scope._
 
-**🎯 Example 1**: In `serverless.yml` (lines 60-62) we define an authorizer function, located at [`src/FeatureToggles/controllers/AuthController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/controllers/AuthController.ts). Then on lines 70-74, we attach it to the `FakeUser` function. Now, the authorizer will run before the FakeUser function when called.
+**🎯 Example 1**: In [`serverless.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/serverless.yml) (lines 60-62) we define an authorizer function, located at [`src/FeatureToggles/controllers/AuthController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/controllers/AuthController.ts). Then on lines 70-74, we attach it to the `FakeUser` function. Now, the authorizer will run before the FakeUser function when called.
+
+{% code title="serverless.yml" %}
+
+```yml
+functions:
+  Authorizer:
+    handler: src/FeatureToggles/controllers/AuthController.handler
+    description: ${self:service} authorizer
+  FakeUser:
+    handler: src/FakeUser/controllers/FakeUserController.handler
+    description: Fake user
+    events:
+      - http:
+          method: GET
+          path: /fakeUser
+          authorizer:
+            name: Authorizer
+            resultTtlInSeconds: 30 # See: https://forum.serverless.com/t/api-gateway-custom-authorizer-caching-problems/4695
+            identitySource: method.request.header.Authorization
+            type: request
+```
+
+{% endcode %}
 
 In our self-contained, basic demo we use a handcrafted [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (role-based access control) to attach a user group to each of the users. The user group is added as a flag in the subsequent call to the actual service.
 
