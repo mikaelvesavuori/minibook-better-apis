@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="344px" preserveAspectRatio="none" style="width:421px;height:344px;" version="1.1" viewBox="0 0 421 344" width="421px" zoomAndPan="magnify"><defs/><g><!--MD5=[e5ae3f02a67d6b42f95be21b01a09278]
+cluster FeatureToggles: Controllers--><path d="M25,24 L231,24 A4.5,4.5 0 0 1 234,27 L241,43.9688 L406,43.9688 A3,3 0 0 1 409,46.9688 L409,115 A3,3 0 0 1 406,118 L25,118 A3,3 0 0 1 22,115 L22,27 A3,3 0 0 1 25,24 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="241" y1="43.9688" y2="43.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="206" x="26" y="37.1387">FeatureToggles: Controllers</text><!--MD5=[9c25c7e8463a60a5c06efd5e387b3eea]
+cluster FeatureToggles: Usecases--><path d="M121,142 L313,142 A4.5,4.5 0 0 1 316,145 L323,161.9688 L323,161.9688 A3,3 0 0 1 326,164.9688 L326,226 A3,3 0 0 1 323,229 L121,229 A3,3 0 0 1 118,226 L118,145 A3,3 0 0 1 121,142 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="118" x2="323" y1="161.9688" y2="161.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="122" y="155.1387">FeatureToggles: Usecases</text><!--MD5=[1b584a516c464aa6d109c053ced612f1]
+cluster FeatureToggles: Config--><path d="M132,253 L303,253 A4.5,4.5 0 0 1 306,256 L313,272.9688 L313,272.9688 A3,3 0 0 1 316,275.9688 L316,329 A3,3 0 0 1 313,332 L132,332 A3,3 0 0 1 129,329 L129,256 A3,3 0 0 1 132,253 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="129" x2="313" y1="272.9688" y2="272.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="171" x="133" y="266.1387">FeatureToggles: Config</text><ellipse cx="324.8081" cy="78.8616" fill="#F8F8F8" rx="67.3081" ry="15.8616" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="270.8081" y="82.346">AuthController</text><ellipse cx="142.2153" cy="79.2431" fill="#F8F8F8" rx="104.2153" ry="23.2431" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="190" x="47.2153" y="82.7274">FeatureTogglesController</text><ellipse cx="221.8744" cy="193.2749" fill="#F8F8F8" rx="84.3744" ry="19.2749" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="147" x="148.3744" y="196.7592">getUserFeatureToggles</text><ellipse cx="221.8986" cy="300.2797" fill="#F8F8F8" rx="64.3986" ry="15.2797" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="101" x="171.3986" y="303.7641">userPermissions</text><!--MD5=[28069d243e4df908a69b935ce0e7dad7]
+link <b>AuthController</b> to getUserFeatureToggles--><path d="M311.535,94.707 C293.905,113.963 262.841,147.892 242.337,170.287 " fill="none" id="&lt;b&gt;AuthController&lt;/b&gt;-&gt;getUserFeatureToggles" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="238.889,174.053,247.9168,170.1161,242.2654,170.3652,242.0163,164.7138,238.889,174.053" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[004993713efbb90339b7d624a67ae288]
+link <b>FeatureTogglesController</b> to getUserFeatureToggles--><path d="M157.615,101.958 C171.539,121.539 191.838,150.085 205.906,169.868 " fill="none" id="&lt;b&gt;FeatureTogglesController&lt;/b&gt;-&gt;getUserFeatureToggles" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="208.809,173.95,206.8549,164.2969,205.9121,169.8747,200.3344,168.9319,208.809,173.95" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[8f529ad73fb8c78be76c291baf36632e]
+link getUserFeatureToggles to userPermissions--><path d="M222,213.272 C222,232.036 222,260.7671 222,279.8384 " fill="none" id="getUserFeatureToggles-&gt;userPermissions" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="222,284.945,226,275.945,222,279.945,218,275.945,222,284.945" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[MD5=[d33548eeda1a706b9e8f61f3008da543]
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 11
+skinparam ranksep 22
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+package "FeatureToggles: Controllers" {
+  (<b>AuthController</b>)
+  (<b>FeatureTogglesController</b>)
+}
+
+package "FeatureToggles: Usecases" {
+  (getUserFeatureToggles)
+}
+
+package "FeatureToggles: Config" {
+  (userPermissions)
+}
+
+(<b>AuthController</b>) --[thickness=1]> (getUserFeatureToggles)
+(<b>FeatureTogglesController</b>) --[thickness=1]> (getUserFeatureToggles)
+(getUserFeatureToggles) --> (userPermissions)
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
