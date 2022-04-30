@@ -30,7 +30,9 @@ function checkInput(event: APIGatewayProxyEvent): string {
 
 {% endcode %}
 
-Note: An alternative, perhaps more commonly used, approach would be to deploy a new instance of the API (like `api.com/v2`), but of course this would create further hardware segregation, which we want to avoid.
+{% hint style='info' %}
+An alternative, perhaps more commonly used, approach would be to deploy a new instance of the API (like `api.com/v2`), but of course this would create further hardware segregation, which we want to avoid.
+{% endhint %}
 
 So, while it may be non-standard, in this context version 2 of the API represents the beta, meaning that version 1 represents the current (or "stable", "old") variant.
 

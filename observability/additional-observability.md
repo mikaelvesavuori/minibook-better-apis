@@ -11,7 +11,7 @@ If you want to try Honeycomb with this project, it's pretty easy if we use their
 1. [Get a free (generous!) Honeycomb account](https://www.honeycomb.io).
 2. When you have the account set up and are logged in, get an API key (it's enough that it can send events and create datasets). [See the docs for more details](https://docs.honeycomb.io/api/api-keys/).
 3. Modify the provided logger as per below, [since the regular `console.log()` does not seem to work correctly with Honeycomb](https://docs.honeycomb.io/getting-data-in/integrations/aws/aws-lambda/#javascript).
-4. Modify `serverless.yml`, uncommenting and adding your values to the environment variables `LIBHONEY_DATASET` and `LIBHONEY_API_KEY` (lines 37-38). Note: Ideally these are encrypted or in a secrets manager, but for this project, let's just do it this way.
+4. Modify `serverless.yml`, uncommenting and adding your values to the environment variables `LIBHONEY_DATASET` and `LIBHONEY_API_KEY` (lines 37-38). **Note**: Ideally these are encrypted or in a secrets manager, but for this project, let's just do it this way.
 5. Deploy the stack.
 6. Add the Honeycomb Lambda integration layer by running `sh honeycomb-layer.sh` (ensure the values correspond with your values first!).
 7. Ready to go! You should see data coming into Honeycomb shortly if you start using your live endpoints.
