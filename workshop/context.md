@@ -14,13 +14,13 @@ You will be especially interested in this project if you have ever been involved
 
 There are a million more of those, but you get the point; It's a dark and strange place to be in.
 
-![Giovanni Battista Piranesi - Imaginary Prisons (1745-1761)](/images/piranesi.jpg)
+![Giovanni Battista Piranesi - Imaginary Prisons (1745-1761)](/img/piranesi.jpg)
 
 > _[Giovanni Battista Piranesi - Imaginary Prisons (1745-1761)](https://en.wikipedia.org/wiki/Imaginary_Prisons)_
 
 While it's fun to throw around the old Piranesi drawing or [Happiness in Slavery](https://imvdb.com/video/nine-inch-nails/happiness-in-slavery) video as self-deprecating memes, I think it is Escher who brilliantly captures the "positive" side of this mess—That things become very, very strange when multiple realities and gravities are seen _together, at once_. Even if one "reality" is perfectly stable and sound, the work of architects is to support all the realities that need to work together.
 
-![M.C. Escher - Relativity (1953)](/images/escher.jpg)
+![M.C. Escher - Relativity (1953)](/img/escher.jpg)
 
 > _[M.C. Escher - Relativity (1953)](<https://en.wikipedia.org/wiki/Relativity_(M._C.\_Escher)>)_
 

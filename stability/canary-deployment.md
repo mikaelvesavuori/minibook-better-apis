@@ -8,7 +8,7 @@ There are considerations and problems with this approach. In our AWS circumstanc
 
 Let's be honest: **Shit happens anyway**.
 
-![Words to live by, as told by Mike Tyson](/images/tyson.jpg)
+![Words to live by, as told by Mike Tyson](/img/tyson.jpg)
 
 Using a [canary release](https://martinfowler.com/bliki/CanaryRelease.html) (formally in AWS CodeDeploy: "[blue/green](https://martinfowler.com/bliki/BlueGreenDeployment.html)") is one way to get those [unknown unknown effects](https://en.wikipedia.org/wiki/Cynefin_framework) happening with real production traffic in a safe and controlled manner. This is where [testing-in-production](https://increment.com/testing/i-test-in-production/) really kicks in—trying to answer questions no staging environment or typical test can address. Instead of being overly defensive, let's simply embrace the uncertainty, as it's already there anyway.
 
