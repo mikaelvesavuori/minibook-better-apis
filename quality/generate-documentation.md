@@ -16,7 +16,7 @@ Then, we use [TypeDoc](https://typedoc.org) for generating docs from the source 
 
 For diagrams, we use [Arkit](https://arkit.pro) for generating diagrams from your software architecture.
 
-**🎯 Example 3**: See the Arkit diagrams above. Just as above, generate them with `npm run docs`.
+**🎯 Example 3**: See the [Arkit diagrams](workshop/architecture-diagrams). As with the docs, these are also generated with `npm run docs`.
 
 Taken together, this means that you can easily make rich documentation available in a central, visible location (like a static website in this case) in the CI stage. This is precisely what I've done on my end for this project: These diagrams also get uploaded to Cloudflare Pages on each commit to `main`.
 

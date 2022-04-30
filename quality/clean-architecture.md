@@ -8,7 +8,7 @@ The second thing, and very much cross-functional in regards to quality and stabi
 
 **🎯 Example 1**: You can see a clear taxonomy for how the overall project and the microservices are organized by simply browsing the folder structure and seeing how code is linked together.
 
-One of several tenets of [Robert Martin's "clean architecture" concept](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is to produce [acyclic code](https://en.wikipedia.org/wiki/Directed_acyclic_graph). You can see that there are no cyclical relations in the Arkit diagrams above. This, among other touches, means that our code is easy to understand, easy to test and debug, and that it is easy to make stable, almost entirely by just logically organizing the code!
+One of several tenets of [Robert Martin's "clean architecture" concept](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is to produce [acyclic code](https://en.wikipedia.org/wiki/Directed_acyclic_graph). You can see that there are no cyclical relations in the [Arkit diagrams](workshop/architecture-diagrams). This, among other touches, means that our code is easy to understand, easy to test and debug, and that it is easy to make stable, almost entirely by just logically organizing the code!
 
 Like Martin, I'm also taking cues from [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), where we use the ["entity"](https://khalilstemmler.com/articles/typescript-domain-driven-design/entities/) concept to refer to "rich domain models", as opposed to anemic domain models:
 

@@ -38,8 +38,6 @@ export async function handler(
 
 {% endcode %}
 
-_Refer to [src/FakeUserBasic/index.ts](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUserBasic/index.ts) for the above code._
-
 Now, things are starting to become more involved:
 
 - They are ready for a bit more detailed user data, meaning more fields.
