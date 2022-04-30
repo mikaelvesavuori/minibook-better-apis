@@ -1,6 +1,7 @@
 # Table of contents
 
 - [What is this?](README.md)
+- [This is an open source book](open-source-book.md)
 - [Workshop](workshop.md)
   - [Project resources](workshop/project-resources.md)
   - [Prior art](workshop/prior-art.md)
