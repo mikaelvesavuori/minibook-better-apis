@@ -1,4 +1,4 @@
-# What is this?
+# Introduction
 
 **"Better APIs: Quality, Stability, Observability" is a practical guide to how you can improve an API, combined with an example project (available on [GitHub](https://github.com/mikaelvesavuori/better-apis-workshop)) and an assignment of sorts, if you'd want to try your hands at making a rock-solid, production-grade API.**
 
