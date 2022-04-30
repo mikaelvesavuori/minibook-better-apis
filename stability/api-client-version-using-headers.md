@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # 📂 API client version using headers
 
 The first way to define expectations is to use API versioning. While there are several ways to do this—for example, refer to [this article from Nordic APIs](https://nordicapis.com/everything-you-need-to-know-about-api-versioning/)—we are going to use a header to define which API version to use.

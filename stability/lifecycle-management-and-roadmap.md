@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # 🗺 Lifecycle management and roadmap
 
 We can follow the convention where we divide an API's lifecycle into design, lifetime, sunset, and deprecation phases (see resources below). Beyond these, we add the notion of being "removed" which is the point at which a feature has been completely purged from the source code.

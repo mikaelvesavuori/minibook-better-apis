@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # Workshop assignment
 
 _Given the scenario, how would you approach addressing the requirements?_

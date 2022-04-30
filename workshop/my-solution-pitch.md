@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # My solution pitch
 
 _**Note**: As the writer of this somewhat elaborate project, yes, it absolutely took more than 2 hours to make all of this! But in fact, the actual implementation and diagramming probably were not much more than that._

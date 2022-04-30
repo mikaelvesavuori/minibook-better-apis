@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # API documentation
 
 These apply to the full "finished" state.
@@ -8,7 +12,7 @@ Get a fake user.
 
 **Required headers**
 
-**`Authorization`**: `erroruser@company.com` | `legacyuser@company.com` |  `standarduser@company.com` | `betauser@company.com` | `qauser@company.com` | `devuser@company.com` |`devnewfeatureuser@company.com`
+**`Authorization`**: `erroruser@company.com` | `legacyuser@company.com` | `standarduser@company.com` | `betauser@company.com` | `qauser@company.com` | `devuser@company.com` |`devnewfeatureuser@company.com`
 
 **`X-Client-Version`**: `1` | `2`
 

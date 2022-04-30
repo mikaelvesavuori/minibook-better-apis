@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # 🏭 Test automation in CI
 
 First, let's look at what I call "defensive testing", that is, any typical testing that we do to test the resiliency and functionality of our solution.

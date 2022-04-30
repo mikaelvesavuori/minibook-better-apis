@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # ⚒ Refactor continuously ("boy scout rule")
 
 It takes perseverance, good communication, and business folks that truly understand software to get dedicated time for improving the solutions we work on. Most people will unfortunately not work in teams with dedicated refactoring time. What to do, then?

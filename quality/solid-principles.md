@@ -9,16 +9,20 @@ The very first (technical) thing is to respect that good code, despite programmi
 **🎯 Example**: One example could be the use of "dependency inversion" when calling the `betaVersion()` function in [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts), as we send in the toggles for it to use. The "single responsibility principle" should hopefully also be evident throughout most of the code.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
+
 ```typescript
 /**
  * @description Handle the new (v2) beta version.
  */
-async function betaVersion(toggles: Record<string, unknown>): Promise<APIGatewayProxyResult> {
+async function betaVersion(
+  toggles: Record<string, unknown>
+): Promise<APIGatewayProxyResult> {
   const response = await createFakeUser(toggles); // Run use case
   return {
     statusCode: 200,
-    body: JSON.stringify(response)
+    body: JSON.stringify(response),
   };
 }
 ```
+
 {% endcode %}

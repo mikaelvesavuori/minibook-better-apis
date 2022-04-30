@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # Scenario
 
 You are supporting your friends, who are making a new social online game, by providing an API service that churns out fake users. For their initial MVP, they asked you to create a service that just returns hardcoded feedback; an object like so, `{ "name": "Someguy Someguyson" }`. This was enough while they built their network code and first Non-Player Character engine.

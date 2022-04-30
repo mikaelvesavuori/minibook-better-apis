@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # 📜 Generate documentation
 
 While it would be unrealistic to say that you shouldn't need to write documentation, we can at least get to the point where documentation (given that some exist) can be generated and output through automation.

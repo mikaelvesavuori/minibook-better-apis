@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # Context
 
 You will be especially interested in this project if you have ever been involved in situations like the ones below, and want to have ideas for how to address them:
