@@ -1,4 +1,4 @@
-# 🏗️ Continuous Integration and Continuous Deployment
+# Continuous Integration and Continuous Deployment
 
 We're at the very basics when it comes to classic [agile](https://en.wikipedia.org/wiki/Agile_software_development) (and [extreme programming](https://en.wikipedia.org/wiki/Extreme_programming)) when we state that [CI](https://explainagile.com/agile/xp-extreme-programming/practices/continuous-integration/) and [CD](https://www.atlassian.com/continuous-delivery/continuous-deployment) are things to strive for. 20 years later, it still seems like these notions are pretty far away in many organizations. To be frank, as [Atlassian writes](https://www.atlassian.com/continuous-delivery/principles/why-agile-development-needs-continuous-delivery), "agile isn't agile without continuous delivery".
 

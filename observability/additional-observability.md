@@ -1,4 +1,4 @@
-# 👁️ Additional observability
+# Additional observability
 
 We can go full monty and add better, richer observability tooling when we feel like we've outgrown the AWS standard tooling.
 

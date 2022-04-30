@@ -1,4 +1,4 @@
-# 🎭 Authorization and role-based access
+# Authorization and role-based access
 
 You'll often see tutorials and such talking about [authentication](https://auth0.com/intro-to-iam/what-is-authentication/), which is about how we can verify that a person really is that person.
 

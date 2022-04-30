@@ -1,4 +1,4 @@
-# ☑️ Open source license compliance
+# Open source license compliance
 
 We must only use good, well-establish open source licenses.
 

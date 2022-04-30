@@ -1,4 +1,4 @@
-# 🏁 Feature toggles ("feature flags")
+# Feature toggles ("feature flags")
 
 This demo uses a handcrafted, simple feature flags engine and a small toggle configuration.
 

@@ -1,4 +1,4 @@
-# 🤖 Synthetic testing
+# Synthetic testing
 
 Synthetic testing sounds cool and intriguing but is really no more than a directed stream of traffic from a non-human source, such as a computer.
 

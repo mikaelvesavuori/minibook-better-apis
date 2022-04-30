@@ -1,4 +1,4 @@
-### 🦺 Canary deployment
+### Canary deployment
 
 The traditional way to deploy software is as one big block that becomes instantly activated whenever it's deployed to a machine. If the code was a complete bomb, then you have zero time to verify this. This notion is what makes managers ask for counter-intuitive things like code freeze and all-hands-on-deck deployments. Let's forever end those days!
 

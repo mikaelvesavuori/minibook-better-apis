@@ -1,4 +1,4 @@
-# 🧪 Unit testing (and more)
+# Unit testing (and more)
 
 At the end of the day, testing is about building confidence in our code. We need to have enough to adequately say our code is covered, and that we feel confident about what we wrote.
 

@@ -1,4 +1,4 @@
-# 👌 API schema validation
+# API schema validation
 
 AWS API Gateway offers schema validation. Schema validation is done with [JSON schemas](https://json-schema.org), which are similar but ultimately not the same as OpenAPI schemas.
 

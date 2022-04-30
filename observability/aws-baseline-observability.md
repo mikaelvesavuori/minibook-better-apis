@@ -1,4 +1,4 @@
-# 🕵️ AWS baseline observability
+# AWS baseline observability
 
 I'm not going to go very far down the observability vs monitoring dialog here. Suffice to say that classic monitoring consists of [logs, metrics, and traces](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html). This is pretty easy to set up, and we should aim at least at having these under control.
 

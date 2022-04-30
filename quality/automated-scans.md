@@ -1,4 +1,4 @@
-# 🔁 Automated scans
+# Automated scans
 
 A best practice is to use various types of scans to automate often boring, sometimes hard, sometimes also mandated requirements e.g. for compliance and security aspects.
 

@@ -1,4 +1,4 @@
-# 🧬 Branch by abstraction
+# Branch by abstraction
 
 In Paul Hammant's words:
 

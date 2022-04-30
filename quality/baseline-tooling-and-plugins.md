@@ -1,4 +1,4 @@
-# 🧰 Baseline tooling and plugins
+# Baseline tooling and plugins
 
 This project uses two very common—but hugely effective—tools, namely [ESLint](https://eslint.org) and [Prettier](https://prettier.io). These two ensure that you have a baseline, pluggable way of ensuring similar standards (and automation of them) across a team. Really, the first thing you want to make sure of is that the code looks and reads the same, regardless of who wrote it. Using these, now you can.
 

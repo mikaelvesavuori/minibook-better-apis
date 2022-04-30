@@ -1,4 +1,4 @@
-# 🧱 SOLID principles
+# SOLID principles
 
 The very first (technical) thing is to respect that good code, despite programming language, is good code even over time. Follow wise conventions like SOLID to guide your daily work. See for example this [Stack Overflow article](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/) for a concise introduction.
 

@@ -1,4 +1,4 @@
-# 🛁 Clean architecture
+# Clean architecture
 
 The second thing, and very much cross-functional in regards to quality and stability, is having an understandable, concise and powerful software architecture.
 
