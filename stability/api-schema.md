@@ -37,7 +37,7 @@ function checkInput(event: APIGatewayProxyEvent): string {
 {% endcode %}
 
 {% hint style='info' %}
-Strongly consider using security tooling like 42Crunch's* [\_VS Code plugin for OpenAPI*](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi).
+Strongly consider using security tooling like 42Crunch's [VS Code plugin for OpenAPI](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi).
 {% endhint %}
 
 Note that because this is intended as a public API, the OAS security object is not present.
