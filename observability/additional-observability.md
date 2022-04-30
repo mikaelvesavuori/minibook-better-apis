@@ -16,7 +16,7 @@ If you want to try Honeycomb with this project, it's pretty easy if we use their
 6. Add the Honeycomb Lambda integration layer by running `sh honeycomb-layer.sh` (ensure the values correspond with your values first!).
 7. Ready to go! You should see data coming into Honeycomb shortly if you start using your live endpoints.
 
-#### Setting up Bunyan as a logger
+## Setting up Bunyan as a logger
 
 Install [`bunyan`](https://github.com/trentm/node-bunyan) and its typings with `npm install bunyan @types/bunyan`.
 
