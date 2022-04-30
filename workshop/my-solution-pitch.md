@@ -24,24 +24,3 @@ The application will exhibit its dynamic nature by:
 - ...and we top it off by using built-in observability in AWS to monitor our application and become alerted if something severe happens.
 
 You can read more about the implementation patterns, and how they are organized into three areas (quality, stability, observability), further down.
-
-## Weighing the negatives between a hardware- or a software-oriented approach
-
-### 🖥️ The drawbacks of hardware-segregated environments
-
-- You start expecting environmental parity between any other systems
-- You start expecting that all systems are in similar, co-deployed stages
-- The implicit reasoning starts becoming that you should/can only have a very low degree of variability/dynamism in configuration
-- As a consequence, such "pre-baked" configuration tests may start becoming large-scale blocking, manual tests
-- There may be significant cost overhead with a higher count of static environments
-- There is most likely a significant complexity overhead with a higher count of static environments
-
-### 🧑‍💻 The drawbacks of a software-defined, dynamic environment
-
-- Can add complexity
-- Will become harder to work with, in the local scope (i.e. the actual code), and more so if there are many branches
-- Requires some degree of cleanliness and pruning (governance even) to control, so things don't grow out of hand
-
-### 🎨 Yes, you can mix these patterns with a hardware-separated environment!
-
-You can absolutely use the patterns seen in this project in a more "traditional" hardware-separated environment. However, the benefits become more pronounced as you also shed some of the overhead and weight of classical environments.
