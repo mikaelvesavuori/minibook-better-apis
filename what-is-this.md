@@ -25,11 +25,8 @@ This repo presents an application ("start" and "finish" formats) and a made-up b
 
 **Observability** means that we can understand, from the outputs of our application, what it is doing and if it is behaving well. Or as [Charity Majors writes](https://twitter.com/mipsytipsy/status/1305398051842871297):
 
-```
-📉 Monitoring is for running and understanding other people's code (aka "your infrastructure")
-
-📈 Observability is for running and understanding *your* code -- the code you write, change and ship every day; the code that solves your core business problems.
-```
+> 📉 Monitoring is for running and understanding other people's code (aka "your infrastructure")
+> 📈 Observability is for running and understanding _your_ code -- the code you write, change and ship every day; the code that solves your core business problems.
 
 Of the three above concepts, _stability_ is the most misunderstood one, and it will be the biggest and most pronounced component here. It will be impossible to reach what Vogels is pointing to, without addressing the need for stability.
 
