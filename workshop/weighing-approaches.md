@@ -1,3 +1,7 @@
+---
+description: TODO
+---
+
 # Weighing between a hardware- or a software-oriented approach
 
 ## 🖥️ The drawbacks of hardware-segregated environments
