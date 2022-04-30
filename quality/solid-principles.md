@@ -20,9 +20,7 @@ The principles are:
 4. The `[I]nterface segregation principle`: "Many client-specific interfaces are better than one general-purpose interface."
 5. The `[D]ependency inversion principle`: "Depend upon abstractions, not concretions."
 
-**🎯 Example**: In our project, one example of the dependency inversion principle comes into play when calling the `betaVersion()` function in [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts), as we send in the toggles for it to use.
-
-The single responsibility principle should hopefully also be evident throughout most of the code.
+**🎯 Example**: In our project, one example of the dependency inversion principle comes into play when calling the `betaVersion()` function in [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts), as we send in the toggles for it (and `createFakeUser()`) to use. Because this happens already in the controller or boot-strapping phase of the application, we ensure that the dynamic values (i.e. the toggles) are always present throughout the full call chain without the need to import them deeper inside the app.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
 
@@ -42,3 +40,5 @@ async function betaVersion(
 ```
 
 {% endcode %}
+
+The single responsibility principle should hopefully also be evident throughout most of the code.
