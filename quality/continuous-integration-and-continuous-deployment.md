@@ -16,9 +16,9 @@ For more on the relation between delivery and deployment (and more), [read this 
 
 Thankfully, there's beginning to be some standardization around what high performance in technology delivery actually means, driven primarily by the [DORA research program](https://www.devops-research.com/research.html) and related books like [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339), by Nicole Forsgren, Jez Humble, and Gene Kim.
 
-{% hint style='info' %}
+{% hint style='tip' %}
 
-Tip: You can take a simple test, called the [DORA DevOps Quick Check](https://www.devops-research.com/quickcheck.html) to check your DORA performance metrics.
+You can take a simple test, called the [DORA DevOps Quick Check](https://www.devops-research.com/quickcheck.html) to check your DORA performance metrics.
 
 {% endhint %}
 

@@ -6,14 +6,26 @@ description: TODO
 
 Documentation... Love it or hate it, but professionally produced software absolutely requires documentation at least as good as the software itself.
 
-Some of the different types of docs we might need to write include:
+Some of the different types of docs we might need to produce include:
 
-- Customer-facing documentation (guides, tutorials, how-to's...)
-- API documentation
-- Technical documentation (class diagrams, deployment diagrams, dependency graphs...)
-- Code documentation (comments...)
+- **Customer-facing documentation**: Guides, tutorials, how-to's...
+- **API documentation**
+- **Technical documentation**: Class diagrams, deployment diagrams, dependency graphs...
+- **Code documentation**: Comments...
+- **Project/product documentation**: Internal stuff like tickets, roadmaps, call sheets...
 
-While it would be unrealistic to say that you shouldn't need to write documentation, we can at least get to the point where documentation (given that some exists) can be generated and output through automation.
+So being lax about _what_ types of docs we are talking about is maybe not too helpful. But we can slice the cake differently, and try to bucket the above into two major categories:
+
+- **Requires manual labor**: Intellectual work needed, not deterministic
+- **Better when generated**: Context is complicated, dynamic, but deterministic
+
+{% hint style='tip' %}
+
+Just like code, documentation is a liability and a responsibility. The more of it you have, the higher the price of upkeep can be.
+
+{% endcode %}
+
+While it would be unrealistic to say that you shouldn't need to write documentation, we can at least get to the point where as much as possible of the documentation can be generated and output through automation.
 
 Here, we use the [JSDoc](https://jsdoc.app) standard for documenting source code.
 

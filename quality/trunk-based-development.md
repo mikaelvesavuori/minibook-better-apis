@@ -24,9 +24,9 @@ Note that even Vincent Driessen, the original conceiver of GitFlow, nowadays [ac
 
 The pros and cons of TBD are of course only truly, fully visible when seen together with other practices and tools you have. There needs to be certain maturity before doing this while remaining safe. This project should represent perfectly valid conditions for which TBD can be used instead of less agile strategies.
 
-{% hint style='info' %}
+{% hint style='tip' %}
 
-Tip: You can usually set up various branching strategies and restrictions in your CI tool, to effectively require TBD as part of the workflow.
+You can usually set up various branching strategies and restrictions in your CI tool, to effectively require TBD as part of the workflow.
 
 {% endhint %}
 
