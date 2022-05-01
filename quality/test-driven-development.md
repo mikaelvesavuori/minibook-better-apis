@@ -4,7 +4,21 @@ description: TODO
 
 # 🥼 Test-Driven Development
 
-[Test-driven development](https://testdriven.io/test-driven-development/) is a practice that a lot of people swear by. I'm a 50/50 person myself—sometimes it makes sense to me, sometimes I just write the tests after I feel I'm out of the weeds when it comes to the first implementation. No need to be a fundamentalist; be a pragmatist! The important thing is that _there are tests_, not so much how and when they came.
+> The TDD process works by following the Red-Green-Refactor loop. It goes:
+>
+> Red — Write a failing test
+> Green — Write just enough code that will pass the failing test
+> Refactor — Criticize the design and refactor the code, keeping the tests intact
+
+— From [Codeacademy](https://www.codecademy.com/article/tdd-red-green-refactor)
+
+{% hint style='info' %}
+
+Read a more [complete introduction to TDD in TypeScript here](https://khalilstemmler.com/articles/test-driven-development/introduction-to-tdd/).
+
+{% endhint %}
+
+[Test-driven development](https://testdriven.io/test-driven-development/) is a practice that a lot of people swear by. I'm a 50/50 person myself—sometimes it makes sense to me, sometimes I just write the tests after I feel I'm out of the weeds when it comes to the first implementation. No need to be a fundamentalist; be a pragmatist! The important thing is that _there are tests_, not so much how and when they came. I'd still note that for this advice, I will assume that you have some kind of rigid standards—it's just too easy to skip the tests!
 
 However, in case you want to be a good-spirited TDD crusader then I've made it easy to do so.
 
