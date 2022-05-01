@@ -24,7 +24,7 @@ When it comes to _actual_ integration testing of the real service we will do it 
 
 **🎯 Example 4**: See `tests/integration/index.ts`.
 
-**🎯 Example 4**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. You'll see all the overall steps covered:
+**🎯 Example 5**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. You'll see all the overall steps covered:
 
 ```
 - name: License check
