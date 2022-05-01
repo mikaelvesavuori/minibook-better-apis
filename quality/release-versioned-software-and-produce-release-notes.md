@@ -6,7 +6,7 @@ description: TODO
 
 Each release should be uniquely versioned. We should also keep release notes, but it's one of those things that can be easy to miss.
 
-...I really wish this was something many enterprise teams did, but I find it to be less common than in the open source or product development communities. Kind of makes sense, but this needn't be the case.
+...I really wish this was something more enterprise teams did, but I find it to be less common than in the open source or product development communities. Kind of makes sense, but this needn't be the case.
 
 So, how do we make it easy "to do the right thing"? We'll add a tool to help us!
 
