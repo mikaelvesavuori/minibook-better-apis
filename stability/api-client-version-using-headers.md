@@ -9,7 +9,6 @@ The first way to define expectations is to use API versioning. While there are s
 **🎯 Example**: See [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts) and note how the header is handled in `checkInput()`.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
-
 ```typescript
 /**
  * @description Check and validate input.
@@ -27,10 +26,9 @@ function checkInput(event: APIGatewayProxyEvent): string {
   return clientVersion || "";
 }
 ```
-
 {% endcode %}
 
-{% hint style='info' %}
+{% hint style="warning" %}
 An alternative, perhaps more commonly used, approach would be to deploy a new instance of the API (like `api.com/v2`), but of course this would create further hardware segregation, which we want to avoid.
 {% endhint %}
 
