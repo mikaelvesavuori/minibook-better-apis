@@ -30,7 +30,7 @@ Testing this way, you have the immediate benefit of understanding your code as a
 
 Spending even a bit of time raising the overall coverage to 90% or more will provide valuable confidence to you and your team. Remember that there are diminishing returns after a certain point, and you should feel comfortable about just leaving some things untested, and especially so if the uncovered areas are not able to create meaningful problems.
 
-{ endhint }
+{% endhint %}
 
 Such coarse-grained API/integration/contract/component/unit tests also typically exercise a wider portion of your codebase, though normally not all of the error handling and such. _This is when you want to start testing on a finer level and not only at the very edge of your code._
 
