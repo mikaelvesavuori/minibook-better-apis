@@ -36,6 +36,9 @@
 - [API Security Encyclopedia](https://apisecurity.io/encyclopedia/content/api-security-encyclopedia)
 - [Why SOLID principles are still the foundation for modern software architecture](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/)
 - [Khalil Stemmler: How to Test Code Coupled to APIs & Databases](https://khalilstemmler.com/articles/test-driven-development/how-to-test-code-coupled-to-apis-or-databases/); also available as video (see below)
+- [Documenting APIs: A guide for technical writers and engineers](https://idratherbewriting.com/learnapidoc/)
+- [Google: Technical Writing One](https://developers.google.com/tech-writing/one)
+- [Principles of technical documentation](https://www.innoq.com/en/articles/2022/01/principles-of-technical-documentation/)
 
 ## Video
 
