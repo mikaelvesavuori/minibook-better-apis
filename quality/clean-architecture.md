@@ -6,6 +6,10 @@ description: TODO
 
 The second thing, and very much cross-functional in regards to quality and stability, is having an understandable, concise and powerful software architecture.
 
+> It is not enough for code to work.
+
+— From [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) by Robert Martin.
+
 **🎯 Example 1**: You can see a clear taxonomy for how the overall project and the microservices are organized by simply browsing the folder structure and seeing how code is linked together. Let's look at the `FakeUser` service:
 
 ```
