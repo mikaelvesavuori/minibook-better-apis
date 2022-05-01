@@ -8,7 +8,7 @@ In this age of DevOps, we don't want to forget the security portion of our respo
 
 To support Dev(Sec)Ops, a best practice is to use various types of scans to automate often boring, sometimes hard, sometimes also mandated requirements e.g. for compliance and security aspects.
 
-Alas, there is no DevOps without automation. So the tooling we adopt needs to work in CI and locally and give meaningful confidence and improvements to our delivery. [GitLab writes about their view on "5 benefits of automated security"](https://about.gitlab.com/blog/2020/07/08/devsecops-security-automation/), which they summarize as:
+Since there is no DevOps without automation the tooling we adopt needs to work both in CI and locally, and provide meaningful confidence and improvements to our delivery. [GitLab writes about their view on "5 benefits of automated security"](https://about.gitlab.com/blog/2020/07/08/devsecops-security-automation/), which they summarize as:
 
 > - Reduced human error.
 > - Early security intervention.
