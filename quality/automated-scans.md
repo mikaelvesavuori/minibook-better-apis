@@ -20,7 +20,11 @@ This is all gold. We want this.
 
 There exists a lot of tooling in this space these days. We are going to use some of the more well-known, free and open-source options.
 
+{% hint style='info' %}
+
 You can see the below tools running in the [CI script](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml).
+
+{% endhint %}
 
 **🎯 Example 1**: We use [Trivy](https://github.com/aquasecurity/trivy) to check for vulnerabilities in packages (among other places).
 
