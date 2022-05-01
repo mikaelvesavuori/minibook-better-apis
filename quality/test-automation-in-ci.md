@@ -26,7 +26,7 @@ rest.get(API_ENDPOINT, (req, res, ctx) => {
 
 {% endcode %}
 
-**🎯 Example 2**: Next up, we set up [contract testing](https://sqa.stackexchange.com/a/42064), using [TripleCheck CLI](https://github.com/mikaelvesavuori/triplecheck-cli). Contract testing means that we can easily verify if our assumptions of services and their interfaces are correct, but we skip verifying the exact semantics of the response. It's enough that the shape or syntax is right.
+**🎯 Example 2**: Next up we set up [contract testing](https://sqa.stackexchange.com/a/42064) using [TripleCheck CLI](https://github.com/mikaelvesavuori/triplecheck-cli). Contract testing means that we can easily verify if our assumptions of services and their interfaces are correct, but we skip verifying the exact semantics of the response. It's enough that the shape or syntax is right.
 
 {% hint style='info' %}
 
@@ -34,15 +34,15 @@ For wider scale and bigger system landscapes, consider using the [TripleCheck br
 
 {% endhint %}
 
-See `triplecheck.config.json` and the TripleCheck documentation linked above.
+See [`triplecheck.config.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/triplecheck.config.json) and the TripleCheck documentation linked above.
 
-**🎯 Example 3**: During the CI stage we will deploy a complete, realistic stack with the most recent version. First, we'll do some basic [smoke tests](<https://en.wikipedia.org/wiki/Smoke_testing_(software)>), to verify we don't have a major malfunction on our hands. _In reality, smoke tests are just lighter types of integration tests._
+**🎯 Example 3**: During the CI stage we will deploy a complete, realistic stack with the most recent version. First, we'll do some basic [smoke tests](<https://en.wikipedia.org/wiki/Smoke_testing_(software)>) to verify we don't have a major malfunction on our hands. _In reality, smoke tests are just lighter types of integration tests._
 
-See `tests/synthetics/smoketest.sh`; it's just a very basic `curl` call!
+See [`tests/synthetics/smoketest.sh`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/synthetics/smoketest.sh); it's just a very basic `curl` call!
 
-**🎯 Example 4**: When it comes to _actual_ integration testing of the real service we will do it when we've seen our smoke tests pass. My solution is a home-built thingy that makes some calls and evaluates the expected responses with the received data using [ajv](https://ajv.js.org).
+**🎯 Example 4**: When it comes to _actual_ integration testing of the real service we'll do it after we've seen our smoke tests pass. My solution is a home-built thingy that makes some calls and evaluates the expected responses with the received data using [ajv](https://ajv.js.org).
 
-See `tests/integration/index.ts`.
+See [`tests/integration/index.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/integration/index.ts).
 
 **🎯 Example 5**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. You'll see all the overall steps covered:
 
