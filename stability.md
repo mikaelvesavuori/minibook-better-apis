@@ -1,5 +1,9 @@
 # Stability
 
+If it's easy to overload tooling in the first portion of a product's lifecycle, we mustn't loose track of providing a stable experience, even as we work on the product.
+
+This section brings out a battery of ways in which we can continue from the overall quality-enhancing practices to delivering without flinching.
+
 - 🗂️ [API client version using headers](stability/api-client-version-using-headers.md)
 - 📄 [API schema](stability/api-schema.md)
 - 👌 [API schema validation](stability/api-schema-validation.md)

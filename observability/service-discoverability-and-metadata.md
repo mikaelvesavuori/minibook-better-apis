@@ -9,3 +9,5 @@ One such open-source solution is Spotify's [Backstage](https://backstage.io) whi
 For a lighter-weight system, I'd think the reasonable data to pull in would be some of the metadata and processes and output we have generated and written previously. In a corporate context, we'd want to ensure the source of truth of the state of our systems/applications resides with the codebase (not in, say, Sharepoint or Confluence or similar), but that a fresh representation is always available in some less developer-oriented context, say on an internally accessible website.
 
 **🎯 Example**: See `manifest.json` for a napkin sketch of how one could work with service metadata. Of course, this is not a functional solution, as you'd need something to extract that data and store it somewhere meaningful.
+
+TODO Catalogist

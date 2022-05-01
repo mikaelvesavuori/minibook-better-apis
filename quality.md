@@ -1,5 +1,7 @@
 # Quality
 
+This section represents overall quality-enhancing activities that can be done to ensure your product is built with a solid engineering foundation.
+
 - 📝 [Make your processes known](quality/make-your-processes-known.md)
 - 🧱 [SOLID principles](quality/solid-principles.md)
 - 🛁 [Clean architecture](quality/clean-architecture.md)
