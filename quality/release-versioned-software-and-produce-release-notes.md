@@ -10,6 +10,6 @@ Each release should be uniquely versioned. We should also keep release notes, bu
 
 So, how do we make it easy "to do the right thing"? We'll add a tool to help us!
 
-**🎯 Example**: Instead of writing manual release notes, we use [Standard Version](https://github.com/conventional-changelog/standard-version) to output them for us from our commits into the `CHANGELOG.md` file. Practically, this works by running `npm run release`.
+**🎯 Example**: Instead of writing manual release notes, we use [Standard Version](https://github.com/conventional-changelog/standard-version) to output them for us from our commits into the [`CHANGELOG.md`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/CHANGELOG.md) file. Practically, this works simply by running `npm run release`.
 
 This should be easy and powerful enough to help set an example in this area.
