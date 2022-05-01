@@ -65,4 +65,4 @@ You'll see all the overall steps covered sequentially (I've cut out all non-name
 - name: Deploy API documentation
 ```
 
-If that battery doesn't cover your needs you can extend it. However, this should provide a more than adequate base for production circumstances.
+If that battery doesn't cover your needs you can just spend a bit of time extending it with your specifics. However, this script should provide a more than amble basis for production circumstances.
