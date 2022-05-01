@@ -25,7 +25,9 @@ Just like code, documentation is a liability and a responsibility. The more of i
 
 {% endcode %}
 
-We should attempt to reach the point where as much as possible of the documentation can be generated and output through automation. Let's look at how we've done a bit in the code part of this project.
+We should attempt to reach the point where as much as possible of the documentation can be generated and output through automation. Good candidates for automated document generation would be dependency graphs, some of our architecture views, and technical documentation from our comments, types, and code structure.
+
+Now let's look at how we've done a bit in the code part of this project.
 
 **🎯 Example 1**: Open up any TS file in the `src` folders. Here, we use the [JSDoc](https://jsdoc.app) standard for documenting source code. Since we are using TypeScript, the style I am using discards "params" instead mostly focusing on the descriptive and referential aspects of JSDoc.
 
