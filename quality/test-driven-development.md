@@ -5,11 +5,8 @@ description: TODO
 # 🥼 Test-Driven Development
 
 > The red, green, refactor approach helps developers compartmentalize their focus into three phases:
-
 > Red — think about _what_ you want to develop.
-
 > Green — think about _how_ to make your tests pass.
-
 > Refactor — think about _how_ to improve your existing implementation.
 
 — From [Codeacademy](https://www.codecademy.com/article/tdd-red-green-refactor)
