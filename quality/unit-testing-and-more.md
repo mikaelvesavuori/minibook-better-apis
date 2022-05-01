@@ -38,4 +38,6 @@ Such coarse-grained API/integration/contract/component/unit tests also typically
 
 For "frameworks" (such as utilities and deterministic calculations) these should be written so that they are very easy to test in isolation. These tend to be the easiest and least messy parts to test. On the other hand, though, they are functionally the inverse of broad tests: Less messy, but only covers a small subset of your overall codebase. Remember to test both "success" (positive) and "failure" (negative) states as far as logically possible and meaningful.
 
-If you later discover unknown test cases that need to be added, to guard against those, we just add them to the unit test collection. Some people call these "regression tests"—though I never call anything a regression test, as the test collection overall acts as a regression suite—but it's all the same in the end.
+If you later discover unknown test cases that need to be added, to guard against those, we just add them to the unit test collection. Some people call these "regression tests"—though I never call anything a regression test, as the test collection overall acts as a regression suite—but it's all the same effect in the end.
+
+And if there is something testers, QAs, and people in the testing sphere seem to love, it's semantics. Screw the semantics, and go for confidence instead, using all the tools you need to get there!
