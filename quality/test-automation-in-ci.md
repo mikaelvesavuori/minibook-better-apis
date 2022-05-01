@@ -23,3 +23,22 @@ During the CI we will deploy a complete, realistic stack with the most recent ve
 When it comes to _actual_ integration testing of the real service we will do it when we've seen our smoke tests pass. My solution is a home-built thingy that makes some calls and evaluates the expected responses with the received data using [ajv](https://ajv.js.org).
 
 **🎯 Example 4**: See `tests/integration/index.ts`.
+
+**🎯 Example 4**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. You'll see all the overall steps covered:
+
+```
+- name: License check
+- name: Scan for secrets
+- name: Run Trivy vulnerability scanner
+- name: Cache dependencies
+- name: Install dependencies
+- name: Test (units)
+- name: Test (contracts)
+- name: Test (IAC)
+- name: Deploy services
+- name: Bake time
+- name: Smoke test
+- name: Test (integrations)
+- name: Test (load)
+- name: Deploy API documentation
+```
