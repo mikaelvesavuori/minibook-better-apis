@@ -17,6 +17,8 @@ Werner Vogels, legendary CTO of Amazon, [states his API rules like this](https:/
 
 In practice, how can we begin moving towards those ideals?
 
+## What will you learn?
+
 This mini-book presents an [application](https://github.com/mikaelvesavuori/better-apis-workshop) and a made-up (but "real-ish") scenario that, taken together, practically demonstrate a range of techniques or methods, patterns, implementations, as well as tools, that all help enhance quality, stability, and observability of applications:
 
 **Quality** means our applications are well-built, functional, safe and secure, maintainable, and are built to high standards.
@@ -33,11 +35,11 @@ Of the three above concepts, _stability_ is the most misunderstood one, and it w
 
 {% hint style='info' %}
 
-**Caveat**: No single example can fully encompass all details involved in such a complex territory as this, but at least I will give it a try!
+**Caveat**: No single example project or book can fully encompass all details involved in such a complex territory as this, but at least I will give it a try!
 
 {% endhint %}
 
-## Context
+## Why should you care?
 
 You will be especially interested in this project if you have ever been involved in situations like the ones below, and want to have ideas for how to address them:
 
