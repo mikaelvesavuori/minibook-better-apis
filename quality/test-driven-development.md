@@ -4,11 +4,11 @@ description: TODO
 
 # 🥼 Test-Driven Development
 
-> The TDD process works by following the Red-Green-Refactor loop. It goes:
+> The red, green, refactor approach helps developers compartmentalize their focus into three phases:
 >
-> Red — Write a failing test
-> Green — Write just enough code that will pass the failing test
-> Refactor — Criticize the design and refactor the code, keeping the tests intact
+> Red — think about _what_ you want to develop
+> Green — think about _how_ to make your tests pass
+> Refactor — think about _how_ to improve your existing implementation
 
 — From [Codeacademy](https://www.codecademy.com/article/tdd-red-green-refactor)
 
