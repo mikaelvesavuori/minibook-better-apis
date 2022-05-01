@@ -14,7 +14,7 @@ It's well worth understanding (and practically implementing!) the concept [_boun
 
 {% endhint %}
 
-**🎯 Example 1**: To not be overloaded with other's services (though we may be dependent on them) we can conduct API mocking to mock away external dependencies. For this purpose, we choose to use [Mock Service Worker](https://mswjs.io). See `tests/mocks/handlers.ts`. The generic pattern looks as easy as this:
+**🎯 Example 1**: To not be overloaded with other's services (though we may be dependent on them) we can conduct API mocking to mock away external dependencies. For this purpose, we choose to use [Mock Service Worker](https://mswjs.io). See [`tests/mocks/handlers.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/mocks/handlers.ts). The generic pattern looks as easy as this:
 
 {% code title="tests/mocks/handlers.ts" %}
 
@@ -44,7 +44,9 @@ See [`tests/synthetics/smoketest.sh`](https://github.com/mikaelvesavuori/better-
 
 See [`tests/integration/index.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/integration/index.ts).
 
-**🎯 Example 5**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. You'll see all the overall steps covered:
+**🎯 Example 5**: See [`.github/workflows/main.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/.github/workflows/main.yml) for the CI script. These scripts are not magic – get acquainted with them, and just as with regular code, make these easy to read and understand.
+
+You'll see all the overall steps covered sequentially (I've cut out all non-name information):
 
 ```
 - name: License check
@@ -62,3 +64,5 @@ See [`tests/integration/index.ts`](https://github.com/mikaelvesavuori/better-api
 - name: Test (load)
 - name: Deploy API documentation
 ```
+
+If that battery doesn't cover your needs you can extend it. However, this should provide a more than adequate base for production circumstances.
