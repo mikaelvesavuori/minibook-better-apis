@@ -10,7 +10,7 @@ The _traditional_ way to deploy software is as one huge chunk that becomes insta
 
 {% hint style="info" %}
 
-See these brilliant articles for more:
+See these brilliant articles for more justification and why this is important to understand:
 
 - [Charity Majors: I test in prod](https://increment.com/testing/i-test-in-production/)
 - [Cindy Sridharan: Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
