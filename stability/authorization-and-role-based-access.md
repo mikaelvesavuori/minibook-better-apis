@@ -4,11 +4,15 @@ description: TODO
 
 # 🎭 Authorization and role-based access
 
-You'll often see tutorials and such talking about [authentication](https://auth0.com/intro-to-iam/what-is-authentication/), which is about how we can verify that a person really is that person.
+You'll often see tutorials and such talking about [authentication](https://auth0.com/intro-to-iam/what-is-authentication/), which is about how we can verify that a person really is the person they claim to be.
 
-[Authorization](https://www.osohq.com/academy), on the other hand, is knowing what this person is allowed to do.
+**[Authorization](https://www.osohq.com/academy), on the other hand, is knowing what this person is allowed to do.**
 
-_Authentication is entirely out of scope here, whereas trivial authorization IS in scope._
+{% hint style="info" %}
+
+Authentication is entirely out of scope here, whereas trivial authorization IS in scope.
+
+{% endhint %}
 
 **🎯 Example 1**: In [`serverless.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/serverless.yml) (lines 60-62) we define an authorizer function, located at [`src/FeatureToggles/controllers/AuthController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/controllers/AuthController.ts). Then on lines 70-74, we attach it to the `FakeUser` function. Now, the authorizer will run before the FakeUser function when called.
 
