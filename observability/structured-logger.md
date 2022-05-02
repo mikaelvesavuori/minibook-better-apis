@@ -8,7 +8,7 @@ Good folks like [Yan Cui have written and presented on this matter many times](h
 
 {% endhint %}
 
-I've provided a basic one that also uses `getUserMetadata()` to get metadata (correlation ID and user ID) that has been set in the environment at an early stage in the controller.
+I've provided a basic one that also uses [`getUserMetadata()`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/frameworks/userMetadata.ts) to get metadata ([correlation ID](https://microsoft.github.io/code-with-engineering-playbook/observability/correlation-id/) and user ID) that has been set in the environment at an early stage in the controller.
 
 **🎯 Example**: See [`src/FakeUser/frameworks/Logger.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/frameworks/Logger.ts). Implementation is as simple as importing it and then:
 
@@ -23,7 +23,11 @@ logger.error("My error!");
 
 {% endcode %}
 
-_Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log` (etc) so you will need to import it everywhere you want to use it._
+{% hint style="info" %}
+
+Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log` (etc) so you will need to import it everywhere you want to use it.
+
+{% endhint %}
 
 Using it, your logs will then all follow the format:
 
