@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: I wish the song "It's a Sin" was about releasing unversioned and undocumented software, but alas, it is not.
 ---
 
 # 📝 Release versioned software and produce release notes
