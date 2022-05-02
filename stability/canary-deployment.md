@@ -8,6 +8,16 @@ The _traditional_ way to deploy software is as one huge chunk that becomes insta
 
 **This notion is what makes managers ask for counter-intuitive things like code freeze and all-hands-on-deck deployments. This is dumb and wrong and helps no-one. Let's forever end those days!**
 
+{% hint style="info" %}
+
+See these brilliant articles for more:
+
+- [Charity Majors: I test in prod](https://increment.com/testing/i-test-in-production/)
+- [Cindy Sridharan: Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
+- [Heidi Waterhouse: Testing in Production to Stay Safe and Sensible](https://launchdarkly.com/blog/testing-in-production-for-safety-and-sanity/)
+
+{% endhint %}
+
 In `serverless.yml` at line \~85, you'll see `type: AllAtOnce`.
 
 {% code title="serverless.yml" %}
