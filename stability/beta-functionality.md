@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Supporting beta features is not that hard. Let's do it!
 ---
 
 # 🆕 Beta functionality

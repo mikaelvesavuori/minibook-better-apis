@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: '"If it ain''t broke, still fix it". Or something.'
 ---
 
 # ⚒ Refactor continuously ("boy scout rule")
@@ -15,16 +15,14 @@ It takes perseverance, good communication, and business folks that truly underst
 Rather than think of "change" as a drastic, singular, large-scale, and long-term event, it's better to see change as a stream of small, manageable events that we can shape. Robert Martin wrote about the notion that every change in a codebase should also include some form of improvement in his classic book, [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/): The _boy scout rule_ which in the engineering context means "always leave the code better than you found it".
 
 {% hint style="info" %}
-
 Read a [short summary here](https://matheus.ro/2017/12/11/clean-code-boy-scout-rule/) and a [longer article on continuous refactoring here](https://www.codit.eu/blog/continuous-refactoring/).
-
 {% endhint %}
 
 Moreover, the "boy scout rule" is definitely colored by other (at the time) contemporary management ideas like [kaizen](https://en.wikipedia.org/wiki/Kaizen) that work well in agile/lean contexts.
 
 But what about our early work, when we are just starting on a new feature or product? In that case I personally love, and truly resonate with, [Martin's notion to start with "degenerate tests"](https://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html) (also in the book, [Clean Craftsmanship](https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X)):
 
-> We begin with the degenerate tests. We return an empty list if the input list is empty, or if the number of requested elements is zero. [...] Note that I am following the rule of gradually increasing complexity. Rather than worrying about the whole problem of random selection, I’m first focusing on tests that describe the periphery of the problem.
+> We begin with the degenerate tests. We return an empty list if the input list is empty, or if the number of requested elements is zero. \[...] Note that I am following the rule of gradually increasing complexity. Rather than worrying about the whole problem of random selection, I’m first focusing on tests that describe the periphery of the problem.
 >
 > We call this: "Don’t go for the Gold". Gradually increase the complexity of your tests by staying away from the center of the algorithm for as long as possible. Deal with the degenerate, trivial, and simple administrative tasks first.
 
@@ -35,7 +33,5 @@ It would be wrong to assume that all code necessarily has this evolutionary spir
 **🎯 Example**: Hard to point to something "post-fact", but every single bit has been continuously enhanced and refactored (sometimes removed) since starting this project. This very book has, as well, going from a README file to become a full Gitbook project!
 
 {% hint style="info" %}
-
 Go ahead and check out [Refactoring.guru](https://refactoring.guru) for lots of ways to approach making practical code improvements. Also, see the [reference list](tips-and-references.md) for even more materials.
-
 {% endhint %}

@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Knowing what you can do is serious business.
 ---
 
 # 🎭 Authorization and role-based access

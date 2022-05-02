@@ -1,5 +1,8 @@
 ---
-description: TODO
+description: >-
+  Sometimes the first question to answer is simply the one posed in Pulp
+  Fiction—"English, motherf***er, do you speak it?"—and actually write down how
+  you work.
 ---
 
 # 📝 Make your processes known
@@ -14,6 +17,6 @@ Any non-trivial software development context requires some form of common ground
 
 **🎯 Example 3**: Reading [`CONTRIBUTING.md`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/CONTRIBUTING.md) makes it clear how the team, and external parties, can contribute to the code base. This document also states some basic principles around code standards, code reviews, bug reporting, and similar "soft tech" issues. Don't underestimate the need to be clear on expectations, whether these are highly detailed nitpicky bits or general guidance: Your project will do better with a good contribution document. See [Mozilla's guide](https://mozillascience.github.io/working-open-workshop/contributing/) for more information.
 
-**🎯 Example 4**: For our [`CODE_OF_CONDUCT.md`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/CODE_OF_CONDUCT.md), we are using the [Contributor Covenant](https://www.contributor-covenant.org), which is one standard to communicate baseline values and norms. Of course, enforcement and such are still in your hands. While it's made for open source circles, something like this makes sense to have in corporate contexts as well.
+**🎯 Example 4**: For our [`CODE_OF_CONDUCT.md`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/CODE\_OF\_CONDUCT.md), we are using the [Contributor Covenant](https://www.contributor-covenant.org), which is one standard to communicate baseline values and norms. Of course, enforcement and such are still in your hands. While it's made for open source circles, something like this makes sense to have in corporate contexts as well.
 
 **🎯 Example 5**: [`SECURITY.md`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/SECURITY.md) describes how we address vulnerabilities and any reports of them, and how we are supposed to track them. Our tooling should use a risk-based remediation strategy based on [CVSS](https://www.first.org/cvss/user-guide), which basically boils down to setting ourselves up to have an informed view on the actual risks we have, have these valued, prioritize the most dangerous risks, and adapt our mitigation based on the severity of them.

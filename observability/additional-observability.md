@@ -1,19 +1,19 @@
-# 👀 Additional observability
+---
+description: >-
+  We can go full monty and add better, richer observability tooling when we feel
+  like we've outgrown the AWS standard tooling.
+---
 
-We can go full monty and add better, richer observability tooling when we feel like we've outgrown the AWS standard tooling.
+# 👀 Additional observability
 
 [Honeycomb](https://www.honeycomb.io) is a next-generation observability-focused solution. Honeycomb or a similar solution could be bolted on as an addition if you want some more bells and whistles beyond what AWS provides. Many modern observability tools are based on the OpenTelemetry standard, making a choice basing itself on that standard a fairly future-proof decision.
 
 {% hint style="info" %}
-
 Read about [OpenTelemetry here](https://leaddev.com/monitoring-observability/rise-opentelemetry).
-
 {% endhint %}
 
-{% hint style="info" %}
-
+{% hint style="success" %}
 If you want to toy with Honeycomb, look no further than [their playground](https://www.honeycomb.io/play/).
-
 {% endhint %}
 
 If you want to try Honeycomb with this project, it's pretty easy if we use their [Lambda extension](https://github.com/honeycombio/honeycomb-lambda-extension):
@@ -35,19 +35,17 @@ Install [`bunyan`](https://github.com/trentm/node-bunyan) and its typings with `
 Open up [`src/FakeUser/frameworks/Logger.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/frameworks/Logger.ts) and add this to the top of the file:
 
 {% code title="src/FakeUser/frameworks/Logger.ts" %}
-
 ```typescript
 import bunyan from "bunyan";
 const log = bunyan.createLogger({ name: "better-apis-workshop" });
 ```
-
 {% endcode %}
 
 For the `log()`, `warn()` and `error()` methods, change the existing `console.log()`-dependent implementation lines to:
 
-- `log.info(createdLog);`
-- `log.warn(createdLog);`
-- `log.error(createdLog);`
+* `log.info(createdLog);`
+* `log.warn(createdLog);`
+* `log.error(createdLog);`
 
 Lastly, in the `createLog()` method, go ahead and remove the `level` field, as `bunyan` adds that itself.
 

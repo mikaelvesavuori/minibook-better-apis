@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Do you trust your code? "If you cared about it, you shoulda put a test on it"
+  as Beyoncé maybe sang at some point.
 ---
 
 # 🧪 Unit testing (and more)
@@ -13,9 +15,7 @@ description: TODO
 Testing is fundamentally about building confidence in our code. We need to have enough tests to accurately be able to say that our code is covered for its critical use-cases, and that we feel confident about the code (and tests!) we wrote.
 
 {% hint style="info" %}
-
 While there is no such thing as "untestable" code, in practice if something is hard as nails to test, then it's probably the code (not the test) that needs refactoring.
-
 {% endhint %}
 
 **🎯 Example**: You'll see that the tests under [`tests/`](https://github.com/mikaelvesavuori/better-apis-workshop/tree/main/tests) are segmented into several wider categories. The tests under [`tests/unit`](https://github.com/mikaelvesavuori/better-apis-workshop/tree/main/tests/unit) are for the individual relevant layers such as controllers, entities, and frameworks.
@@ -27,9 +27,7 @@ If you are writing tests _after_ having created the initial code—functions, cl
 Testing this way, you have the immediate benefit of understanding your code as an API, as this is the closest to—or even the exact same—code that will be "the real deal" going out into production. These tests therefore tend to be very similar when writing for the integration and contract test use-cases: After all, they all try to address the same, or at least similar, things through more or less the exact same API.
 
 {% hint style="info" %}
-
 Spending even a bit of time raising the overall coverage to 90% or more will provide valuable confidence to you and your team. Remember that there are diminishing returns after a certain point, and you should feel comfortable about just leaving some things untested, and especially so if the uncovered areas are not able to create meaningful problems.
-
 {% endhint %}
 
 Such coarse-grained API/integration/contract/component/unit tests also typically exercise a wider portion of your codebase, though normally not all of the error handling and such. _This is when you want to start testing on a finer level and not only at the very edge of your code._
