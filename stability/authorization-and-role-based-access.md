@@ -4,11 +4,11 @@ description: TODO
 
 # 🎭 Authorization and role-based access
 
-You'll often see tutorials and such talking about [authentication](https://auth0.com/intro-to-iam/what-is-authentication/), which is about how we can verify that a person really is the person they claim to be.
+You'll often see tutorials and such talking about [authentication](https://auth0.com/intro-to-iam/what-is-authentication/), which is about how we can verify that a person really is the person they claim to be. This tends to be mostly a technical exercise.
 
 **[Authorization](https://www.osohq.com/academy), on the other hand, is knowing what this person is allowed to do.**
 
-Only trivial systems will require no authorization, so prepare to think about how you want your model to work and how to construct your permission sets.
+Only trivial systems will require no authorization, so prepare to think about how you want your model to work and how to construct your permission sets. Rather than being a technical concern, this becomes more logical than anything else.
 
 {% hint style="info" %}
 
