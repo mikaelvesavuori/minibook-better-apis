@@ -12,11 +12,47 @@ Further, let's also add that monitoring classically is said to consist of the th
 
 {% hint style="info" %}
 
-Tracing is maybe the least well-understood. Do read [Lightstep's good introductory article on tracing\_](https://lightstep.com/distributed-tracing/) if you are interested in that area!
+Of the three pillars, tracing is maybe the least well-understood. Do read [Lightstep's good introductory article on tracing\_](https://lightstep.com/distributed-tracing/) if you are interested in that area!
 
 {% endhint %}
 
 **🎯 Example**: Our `serverless.yml` configuration enables [X-Ray](https://aws.amazon.com/xray/) in the `tracing` object. By default, [CloudWatch](https://aws.amazon.com/cloudwatch/) log groups are created. Next, we add the [`serverless-plugin-aws-alerts`](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) plugin to give us some basic metrics (throttles, etc.). [Read more here](https://www.serverless.com/blog/serverless-ops-metrics). Taken together, these give us a very good level of baseline observability right out of the box.
+
+{% code title="serverless.yml" %}
+
+```yml
+provider:
+  [...]
+  tracing:
+    apiGateway: true
+    lambda: true
+
+plugins:
+  - serverless-plugin-aws-alerts
+
+custom:
+  alerts:
+    dashboards: true
+
+functions:
+  FakeUser:
+    [...]
+    alarms:
+      - name: CanaryCheck
+        namespace: 'AWS/Lambda'
+        metric: Errors
+        threshold: 3
+        statistic: Sum
+        period: 60
+        evaluationPeriods: 1
+        comparisonOperator: GreaterThanOrEqualToThreshold
+    deploymentSettings:
+      [...]
+      alarms:
+        - FakeUserCanaryCheckAlarm
+```
+
+{% endcode %}
 
 {% hint style="info" %}
 
