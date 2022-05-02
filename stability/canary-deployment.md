@@ -18,7 +18,7 @@ See these brilliant articles for more justification and why this is important to
 
 {% endhint %}
 
-In `serverless.yml` at line \~85, you'll see `type: AllAtOnce`.
+OK, so what can _we_ do about it? In `serverless.yml` at line \~85, you'll see `type: AllAtOnce`.
 
 {% code title="serverless.yml" %}
 
