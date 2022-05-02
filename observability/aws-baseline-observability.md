@@ -16,7 +16,15 @@ Of the three pillars, tracing is maybe the least well-understood. Do read [Light
 
 {% endhint %}
 
-**🎯 Example**: Our [`serverless.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/serverless.yml) configuration enables [X-Ray](https://aws.amazon.com/xray/) in the `tracing` object. By default, [CloudWatch](https://aws.amazon.com/cloudwatch/) log groups are created. Next, we add the [`serverless-plugin-aws-alerts`](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) plugin to give us some basic metrics (throttles, etc.). [Read more here](https://www.serverless.com/blog/serverless-ops-metrics). Taken together, these give us a very good level of baseline observability right out of the box.
+**🎯 Example**: Our [`serverless.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/serverless.yml) configuration enables [X-Ray](https://aws.amazon.com/xray/) in the `tracing` object. By default, [CloudWatch](https://aws.amazon.com/cloudwatch/) log groups are created. Next, we add the [`serverless-plugin-aws-alerts`](https://github.com/ACloudGuru/serverless-plugin-aws-alerts) plugin to give us some basic metrics (throttles, etc.).
+
+{% hint style="info" %}
+
+[Read more about metrics with Serverless Framework here](https://www.serverless.com/blog/serverless-ops-metrics).
+
+{% endhint %}
+
+Taken together, these give us a very good level of baseline observability right out of the box.
 
 {% code title="serverless.yml" %}
 
