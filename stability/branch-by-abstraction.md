@@ -4,11 +4,19 @@ description: TODO
 
 # 🧬 Branch by abstraction
 
-In [Paul Hammant](https://paulhammant.com)'s words:
+How do we do better than using branches? Well... not using branches! But how to deal with changes bigger than we want to contain in a single commit?
+
+> "Branch by Abstraction" is a technique for making a large-scale change to a software system in gradual way that allows you to release the system regularly while the change is still in-progress.
+
+— Source: [Martin Fowler: BranchByAbstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
+
+[Paul Hammant](https://paulhammant.com) seems to be the originator, if not of the pattern, then at least of the term. He's also clear on this being smarter than using multiple branches.
 
 > \[Branch] by abstraction instead of by \[code] branching in source control. And no, that doesn't mean sprinkle conditionals into your source code, it means to use an abstraction concept that's idiomatic for the programming language you are using.
 
 — Source: [Branch By Abstraction?](https://www.branchbyabstraction.com)
+
+This pattern works especially well when making significant changes to existing code. I might be harsh here, but there might well be severe code smells already present, since abstracting this way should be easy with well-engineered and nicely separated code.
 
 It's all pretty simple, actually. The full eight steps are:
 
@@ -20,8 +28,6 @@ It's all pretty simple, actually. The full eight steps are:
 > 6. Scale up your CI infrastructure to guard old and new implementations
 > 7. When ready, switch over in production (a toggle flip to end 'dark deployment' mode)
 > 8. Lastly, delete old implementations and the abstraction itself (essential follow up work)
-
-This pattern works well when making significant changes to existing code. I might be harsh here, but there might well be severe code smells already present, since abstracting this way should be easy with well-engineered and nicely separated code.
 
 **🎯 Example**: While our example might be too lightweight, and involved "new" and not old code, we do have a "beta" version and a "current" version as two code paths (see [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts), lines 37-44), abstracted in the controller.
 
@@ -47,6 +53,8 @@ else return await betaVersion(toggles);
 ```
 
 {% endcode %}
+
+If you need a hint, the encapsulation of the versions into their own "use-cases" makes it very easy to package completely different functionality into the same deployable artifact.
 
 {% hint style="info" %}
 
