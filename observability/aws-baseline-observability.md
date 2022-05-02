@@ -12,7 +12,7 @@ Further, let's also add that monitoring classically is said to consist of the th
 
 {% hint style="info" %}
 
-Of the three pillars, tracing is maybe the least well-understood. Do read [Lightstep's good introductory article on tracing\_](https://lightstep.com/distributed-tracing/) if you are interested in that area!
+Of the three pillars, tracing is maybe the least well-understood. Do read [Lightstep's good introductory article on tracing](https://lightstep.com/distributed-tracing/) if you are interested in that area!
 
 {% endhint %}
 
@@ -20,7 +20,7 @@ Of the three pillars, tracing is maybe the least well-understood. Do read [Light
 
 {% hint style="info" %}
 
-[Read more about metrics with Serverless Framework here](https://www.serverless.com/blog/serverless-ops-metrics).
+Read more about [metrics with Serverless Framework here](https://www.serverless.com/blog/serverless-ops-metrics).
 
 {% endhint %}
 
