@@ -16,7 +16,7 @@ Beyond these, we add the notion of being `removed` which is the point at which a
 
 **🎯 Example**: We'd keep a roadmap like the below in our docs. Imagine that today is 25 November 2021 and see below what our code base would represent at that point in time:
 
-| Feature                                   | Group/Flag            | Beta start      | Stable          | Sunset         | Deprecated       | Removed         |
+| **Feature**                               | **Group/Flag**        | **Beta start**  | **Stable**      | **Sunset**     | **Deprecated**   | **Removed**     |
 | ----------------------------------------- | --------------------- | --------------- | --------------- | -------------- | ---------------- | --------------- |
 | Use hardcoded response                    | N/A                   | 1 August 2021   | 8 August 2021   | 1 October 2021 | 15 November 2021 | 15 January 2022 |
 | Use RandomUser instead of JSONPlaceholder | Group `devNewFeature` | 1 November 2021 | 15 January 2022 | N/A            | N/A              | N/A             |
