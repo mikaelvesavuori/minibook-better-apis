@@ -8,7 +8,7 @@ First, let's look at what I personally call "defensive testing", that is, any ty
 
 We need to establish clear boundaries and expectations of where our work ends, and someone else's work begins. I really this were a technical topic with clear answers, but the more I work with people, the more I keep getting surprised by how little teams do to precisely define their boundaries.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 It's well worth understanding (and practically implementing!) the concept [_bounded context_](https://martinfowler.com/bliki/BoundedContext.html) in your product/project.
 
@@ -28,7 +28,7 @@ rest.get(API_ENDPOINT, (req, res, ctx) => {
 
 **🎯 Example 2**: Next up we set up [contract testing](https://sqa.stackexchange.com/a/42064) using [TripleCheck CLI](https://github.com/mikaelvesavuori/triplecheck-cli). Contract testing means that we can easily verify if our assumptions of services and their interfaces are correct, but we skip verifying the exact semantics of the response. It's enough that the shape or syntax is right.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 For wider scale and bigger system landscapes, consider using the [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) to be able to store and load contracts from a centralized source.
 

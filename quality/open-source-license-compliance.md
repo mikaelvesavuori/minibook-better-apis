@@ -6,7 +6,7 @@ description: TODO
 
 Open source is fantastic, you don't need me to tell you about it! However, consuming (and sometimes redistributing) open source is not always a very trivial matter. Especially when we start having to comply with license obligations, like providing license files, and attributing people and so on.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 I've previously written on this topic on Medium, [Open source license compliance, the TL;DR version](https://medium.com/wearehumblebee/open-source-license-compliance-the-tl-dr-version-b52ca78df957).
 

@@ -6,7 +6,7 @@ description: Looking at some time-honored engineering principles.
 
 The very first (technical) thing is to respect that good code, despite programming language, is good code even over time. Follow wise conventions like [SOLID](https://en.wikipedia.org/wiki/SOLID) to guide your daily work.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 See for example this [Stack Overflow article](https://stackoverflow.blog/2021/11/01/why-solid-principles-are-still-the-foundation-for-modern-software-architecture/) or [Khalil Stemmler's write-up](https://khalilstemmler.com/articles/solid-principles/solid-typescript/) for a concise introduction.
 

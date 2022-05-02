@@ -12,7 +12,7 @@ description: TODO
 
 Testing is fundamentally about building confidence in our code. We need to have enough tests to accurately be able to say that our code is covered for its critical use-cases, and that we feel confident about the code (and tests!) we wrote.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 While there is no such thing as "untestable" code, in practice if something is hard as nails to test, then it's probably the code (not the test) that needs refactoring.
 
@@ -26,7 +26,7 @@ If you are writing tests _after_ having created the initial code—functions, cl
 
 Testing this way, you have the immediate benefit of understanding your code as an API, as this is the closest to—or even the exact same—code that will be "the real deal" going out into production. These tests therefore tend to be very similar when writing for the integration and contract test use-cases: After all, they all try to address the same, or at least similar, things through more or less the exact same API.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 Spending even a bit of time raising the overall coverage to 90% or more will provide valuable confidence to you and your team. Remember that there are diminishing returns after a certain point, and you should feel comfortable about just leaving some things untested, and especially so if the uncovered areas are not able to create meaningful problems.
 

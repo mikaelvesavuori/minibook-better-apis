@@ -33,7 +33,7 @@ This mini-book presents an [application](https://github.com/mikaelvesavuori/bett
 
 Of the three above concepts, _stability_ is the most misunderstood one, and it will be the biggest and most pronounced component here. It will be impossible to reach what Vogels is pointing to, without addressing the need for stability.
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 **Caveat**: No single example project or book can fully encompass all details involved in such a complex territory as this, but at least I will give it a try!
 

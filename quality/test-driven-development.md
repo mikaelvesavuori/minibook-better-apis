@@ -12,7 +12,7 @@ description: TODO
 
 — From [Codeacademy](https://www.codecademy.com/article/tdd-red-green-refactor)
 
-{% hint style='info' %}
+{% hint style="info" %}
 
 Read a more [complete introduction to TDD in TypeScript here](https://khalilstemmler.com/articles/test-driven-development/introduction-to-tdd/).
 
