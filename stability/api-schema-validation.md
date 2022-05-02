@@ -10,7 +10,7 @@ These validators allow our gateway to respond to incorrect requests without us n
 
 {% hint style="info" %}
 
-It can't be understated how important it is to actually use the capabilities of the cloud components/services we are using. It's primitive to have to basic request validation in our application layer—use the built-in capabilities in API Gateway and similar services and do more business-oriented validation as needed in the application instead.
+It can't be understated how important it is to actually use the capabilities of the cloud components/services we are using. It's _primitive and wrong_ to have to do **basic** request validation in our application layer—use the built-in capabilities in API Gateway and similar services and do more business-oriented validation as needed in the application instead.
 
 {% endhint %}
 
@@ -18,7 +18,7 @@ Once again, since we have a manual approach, any validation schemas need to be h
 
 {% hint style="info" %}
 
-We only use validators for POST requests, which means the FeatureToggles function is in scope, but not the FakeUser function.
+We only use validators for POST requests, which means the `FeatureToggles` function is in scope, but not the `FakeUser` function.
 
 {% endhint %}
 
