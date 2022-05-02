@@ -59,3 +59,5 @@ functions:
 Refer to the [CloudWatch Logs Insights query syntax](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CWL_QuerySyntax.html) if you want to set up some nice log queries. Also note that a shortcoming with CloudWatch is that they don't seem ideal for cross-service logs, but they are just fine when it comes to checking on a specific service. This is the intention behind the coming Honeycomb addition below.
 
 {% endhint %}
+
+You can now see dashboards (metrics) in both the Lambda function view and CloudWatch (plus the logs themselves) and get the full X-Ray tracing. It's just as easy as that! Done deal.
