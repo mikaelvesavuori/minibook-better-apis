@@ -25,6 +25,21 @@ logger.error("My error!");
 
 {% endcode %}
 
+Or for that matter something more like this:
+
+```typescript
+const logger = new Logger();
+logger.log({
+  accountId: "192k-d124",
+  setting: "baseline",
+  customization: {
+    cinemaMode: false,
+    highDef: true,
+  },
+  timePlayed: "412",
+});
+```
+
 {% hint style="info" %}
 
 Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log()` (etc) so you will need to import it everywhere you want to use it.
