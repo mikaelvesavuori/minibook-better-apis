@@ -43,6 +43,21 @@ functions:
 
 In [`src/FeatureToggles/config/userPermissions.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/config/userPermissions.ts) users are matched like so:
 
+{% code title="src/FeatureToggles/usecases/getUserFeatureToggles.ts" %}
+
+```typescript
+/**
+ * @description Get user's authorization level keyed for their name. Fallback is "standard" features.
+ */
+function getUserAuthorizationLevel(user: string): string {
+  const authorizationLevel = userPermissions[user];
+  if (!authorizationLevel) return "standard";
+  else return authorizationLevel;
+}
+```
+
+{% endcode %}
+
 {% code title="src/FeatureToggles/config/userPermissions.ts" %}
 
 ```typescript
