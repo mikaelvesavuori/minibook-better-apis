@@ -2,7 +2,13 @@
 
 We can go full monty and add better, richer observability tooling when we feel like we've outgrown the AWS standard tooling.
 
-[Honeycomb](https://www.honeycomb.io) is a next-generation "true" observability solution. This can be bolted on as an addition if you want some more bells and whistles over the AWS stuff. It's also based on the OpenTelemetry standard, making it pretty future-proof. [Read about OpenTelemetry here](https://leaddev.com/monitoring-observability/rise-opentelemetry).
+[Honeycomb](https://www.honeycomb.io) is a next-generation observability-focused solution. Honeycomb or a similar solution could be bolted on as an addition if you want some more bells and whistles beyond what AWS provides. Many modern observability tools are based on the OpenTelemetry standard, making a choice basing itself on that standard a fairly future-proof decision.
+
+{% hint style="info" %}
+
+[Read about OpenTelemetry here](https://leaddev.com/monitoring-observability/rise-opentelemetry).
+
+{% endhint %}
 
 If you want to toy with Honeycomb, look no further than [their playground](https://www.honeycomb.io/play/).
 
