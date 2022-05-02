@@ -28,7 +28,7 @@ If you want to try Honeycomb with this project, it's pretty easy if we use their
 
 ## Setting up Bunyan as a logger
 
-**You might want to use Bunyan rather than our custom logger if the logs don't quite show up, structured the way we output them.**
+**You might want to use Bunyan rather than our custom logger if the logs don't quite show up structured the way we output them**.
 
 Install [`bunyan`](https://github.com/trentm/node-bunyan) and its typings with `npm install bunyan @types/bunyan`.
 
