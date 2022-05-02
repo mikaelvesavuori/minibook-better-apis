@@ -8,20 +8,17 @@ The _traditional_ way to deploy software is as one huge chunk that becomes insta
 
 **This notion is what makes managers ask for counter-intuitive things like code freeze and all-hands-on-deck deployments. This is dumb and wrong and helps no-one. Let's forever end those days!**
 
-{% hint style="info" %}
-
+{% hint style="success" %}
 See these brilliant articles for more justification and why this is important to understand:
 
-- [Charity Majors: I test in prod](https://increment.com/testing/i-test-in-production/)
-- [Cindy Sridharan: Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
-- [Heidi Waterhouse: Testing in Production to Stay Safe and Sensible](https://launchdarkly.com/blog/testing-in-production-for-safety-and-sanity/)
-
+* [Charity Majors: I test in prod](https://increment.com/testing/i-test-in-production/)
+* [Cindy Sridharan: Testing in Production, the safe way](https://copyconstruct.medium.com/testing-in-production-the-safe-way-18ca102d0ef1)
+* [Heidi Waterhouse: Testing in Production to Stay Safe and Sensible](https://launchdarkly.com/blog/testing-in-production-for-safety-and-sanity/)
 {% endhint %}
 
 OK, so what can _we_ do about it? In `serverless.yml` at line \~85, you'll see `type: AllAtOnce`.
 
 {% code title="serverless.yml" %}
-
 ```yml
 FakeUser:
   [...]
@@ -31,7 +28,6 @@ FakeUser:
     alarms:
       - FakeUserCanaryCheckAlarm
 ```
-
 {% endcode %}
 
 This means that we get a classic `deploy === release` pattern. When the deployment is done, the new function version is immediately active with a clear cut-off between the previous and the current (new) version.
@@ -48,17 +44,16 @@ Let's be honest: **Shit happens anyway**.
 
 Instead of being overly defensive, let's simply embrace the uncertainty, as it's already there anyway.
 
-Using a [canary release](https://martinfowler.com/bliki/CanaryRelease.html) is one way to get those [unknown unknown effects](https://en.wikipedia.org/wiki/Cynefin_framework) happening with real production traffic in a safe and controlled manner. This is where the (sometimes misunderstood) concept [testing-in-production](https://increment.com/testing/i-test-in-production/) really kicks in—trying to answer questions no staging environment or typical test can address. Like a canary in the mines of old, our canary will die if something is wrong, effectively stopping our roll-out.
+Using a [canary release](https://martinfowler.com/bliki/CanaryRelease.html) is one way to get those [unknown unknown effects](https://en.wikipedia.org/wiki/Cynefin\_framework) happening with real production traffic in a safe and controlled manner. This is where the (sometimes misunderstood) concept [testing-in-production](https://increment.com/testing/i-test-in-production/) really kicks in—trying to answer questions no staging environment or typical test can address. Like a canary in the mines of old, our canary will die if something is wrong, effectively stopping our roll-out.
 
 **🎯 Example**: Setting the line to `type: Canary10Percent5Minutes` makes the deployment happen through AWS CodeDeploy in a more controlled, bi-directed fashion:
 
-- 90% of the traffic will pass to whatever function version that was already deployed and active...
-- ...while the remaining 10% of traffic will be directed to the "canary" version of the function.
-- The alarm configuration (defined on lines 75-83) looks for a static value of 3 or more errors on the function (I assume all versions here?) during the last 60-second window.
-- After 5 minutes, given nothing has fired the alarm, then the new version takes all of the traffic.
+* 90% of the traffic will pass to whatever function version that was already deployed and active...
+* ...while the remaining 10% of traffic will be directed to the "canary" version of the function.
+* The alarm configuration (defined on lines 75-83) looks for a static value of 3 or more errors on the function (I assume all versions here?) during the last 60-second window.
+* After 5 minutes, given nothing has fired the alarm, then the new version takes all of the traffic.
 
 {% code title="serverless.yml" %}
-
 ```yml
 FakeUser:
   [...]
@@ -77,7 +72,6 @@ FakeUser:
     alarms:
       - FakeUserCanaryCheckAlarm
 ```
-
 {% endcode %}
 
 You can either manually send "error traffic" with the `erroruser@company.com` Authorization header, or use the AWS CLI to manually toggle the alarm state. See [AWS docs for how to set the alarm state](https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/set-alarm-state.html), similar to:
@@ -87,15 +81,11 @@ aws cloudwatch set-alarm-state --alarm-name "myalarm" --state-value ALARM --stat
 ```
 
 {% hint style="info" %}
-
-Tip: Use the above with the `OK` state value to reset the alarm when done.
-
+Use the above with the `OK` state value to reset the alarm when done.
 {% endhint %}
 
 This specific solution is rudimentary, but indicative enough for how a canary solution might begin to look. I highly recommend using a deployment strategy other than the primitive "all-at-once" variety.
 
 {% hint style="info" %}
-
 See this article at [Google Cloud Platform for more information on deployment and test strategies](https://cloud.google.com/architecture/application-deployment-and-testing-strategies).
-
 {% endhint %}

@@ -13,7 +13,6 @@ What gives? Aren't these beta features just like _any other_ toggles? **Yes**. I
 **🎯 Example**: See for example [`src/FakeUser/usecases/createFakeUser.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/usecases/createFakeUser.ts) that uses the provided toggles when calling the User entity which dynamically creates different types of users from this toggle.
 
 {% code title="src/FakeUser/usecases/createFakeUser.ts" %}
-
 ```typescript
 import { UserData, UserDataExtended, User } from "../entities/User";
 
@@ -29,21 +28,20 @@ export async function createFakeUser(
   // Use of catAPI is same in all cases
   const user = new User(toggles.enableBetaFeatures as boolean | false);
   const imageResponse = await getImage("catAPI");
-  user.applyUserImageFromCatApi(imageResponse);
+  user.applyUserImageFromCatApi(imageResponse); // <-- Rich entity object has dedicated functionality for differing data sources
 
   // Use code branching for new development feature
   if (toggles.enableNewUserApi) {
     const dataResponse = await getData("RandomUser");
-    user.applyUserDataFromRandomUser(dataResponse);
+    user.applyUserDataFromRandomUser(dataResponse); // <-- Rich entity object has dedicated functionality for differing data sources
   }
   // Else return regular response
   else {
     const dataResponse = await getData("JSONPlaceholder");
-    user.applyUserDataFromJsonPlaceholder(dataResponse);
+    user.applyUserDataFromJsonPlaceholder(dataResponse); // <-- Rich entity object has dedicated functionality for differing data sources
   }
 
   return user.viewUserData();
 }
 ```
-
 {% endcode %}
