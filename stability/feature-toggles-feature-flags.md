@@ -12,11 +12,11 @@ The feature function is located at [`src/FeatureToggles`](https://github.com/mik
 
 Unknown (or missing, non-existing, null...) users get the `standard` user group access.
 
-{% code style="info" %}
+{% hint style="info" %}
 
 Note that different feature toggle services or implementations may differ in how they exactly apply toggles, and how they work. In our case here, we apply group-level toggles rather than request individual flags, if nothing else than for simplicity of demonstration.
 
-{% endcode %}
+{% endhint %}
 
 **🎯 Example**: The full configuration you can use as your template looks like the one below. Notice how it's segmented on the group level:
 
