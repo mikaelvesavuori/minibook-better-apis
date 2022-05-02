@@ -28,6 +28,8 @@ If you want to try Honeycomb with this project, it's pretty easy if we use their
 
 ## Setting up Bunyan as a logger
 
+**You might want to use Bunyan rather than our custom logger if the logs don't quite show up, structured the way we output them.**
+
 Install [`bunyan`](https://github.com/trentm/node-bunyan) and its typings with `npm install bunyan @types/bunyan`.
 
 Open up [`src/FakeUser/frameworks/Logger.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/frameworks/Logger.ts) and add this to the top of the file:
@@ -45,6 +47,8 @@ For the `log()`, `warn()` and `error()` methods, change the existing `console.lo
 
 - `log.info(createdLog);`
 - `log.warn(createdLog);`
-- `log.error(createdLog);`, respectively.
+- `log.error(createdLog);`
 
-In the `createLog()` method, go ahead and remove the `level` field, as `bunyan` adds that itself.
+Lastly, in the `createLog()` method, go ahead and remove the `level` field, as `bunyan` adds that itself.
+
+Now you can use Bunyan instead of regular `console.log()` or our own custom one!
