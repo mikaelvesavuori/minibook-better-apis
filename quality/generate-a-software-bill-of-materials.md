@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: What went into making your software, besides swearing and broken deadlines?
 ---
 
 # 🧾 Generate a software bill of materials

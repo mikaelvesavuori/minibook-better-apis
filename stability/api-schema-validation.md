@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Learn how to validate incoming requests before they enter the application
+  layer.
 ---
 
 # 👌 API schema validation

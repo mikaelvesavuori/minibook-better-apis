@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Get rid of heavy-handed branching and just branch in code instead.
 ---
 
 # 🧬 Branch by abstraction
@@ -14,7 +14,7 @@ How do we do better than using branches? Well... not using branches! But how to 
 
 > \[Branch] by abstraction instead of by \[code] branching in source control. And no, that doesn't mean sprinkle conditionals into your source code, it means to use an abstraction concept that's idiomatic for the programming language you are using.
 
-— Source: [Branch By Abstraction?](https://www.branchbyabstraction.com)
+— Source: [Branch By Abstraction?](https://www.branchbyabstraction.com)
 
 This pattern works especially well when making significant changes to existing code. I might be harsh here, but there might well be severe code smells already present, since abstracting this way should be easy with well-engineered and nicely separated code.
 
@@ -34,7 +34,6 @@ It's all pretty simple, actually. The full eight steps are:
 Effectively, we are—even in this contrived example—making it easy and possible to work together with both new and old code without too much risk. Taking this thinking further, it's possible to solve vastly more complex situations just as well.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
-
 ```typescript
 /**
  * Run current version for:
@@ -51,13 +50,10 @@ if (
 // Run beta version for everyone else
 else return await betaVersion(toggles);
 ```
-
 {% endcode %}
 
 If you need a hint, the encapsulation of the versions into their own "use-cases" makes it very easy to package completely different functionality into the same deployable artifact.
 
 {% hint style="info" %}
-
 Refer to the [Branch by Abstraction website](https://www.branchbyabstraction.com) for more.
-
 {% endhint %}

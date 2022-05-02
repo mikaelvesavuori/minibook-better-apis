@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Get ready for Friday deploys with canary deployments.
 ---
 
 # 🦺 Canary deployment

@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  The collective impact of several, on their own, small tools can make the
+  difference between misery and joy very tangible.
 ---
 
 # 🧰 Baseline tooling and plugins

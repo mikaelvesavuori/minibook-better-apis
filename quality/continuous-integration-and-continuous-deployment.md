@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: The beating heart of Agile and DevOps.
 ---
 
 # 🏗 Continuous Integration and Continuous Deployment

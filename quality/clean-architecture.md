@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Architecture, clean as a whistle, and clear as day. No developers were harmed
+  during the writing of this article.
 ---
 
 # 🛁 Clean architecture

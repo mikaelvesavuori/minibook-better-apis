@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Let the machine generate as much of the docs as possible.
 ---
 
 # 📜 Generate documentation

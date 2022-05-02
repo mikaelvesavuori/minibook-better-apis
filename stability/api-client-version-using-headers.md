@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Enable multiple responses from the same instance of the API using a simple
+  mechanism.
 ---
 
 # 📂 API client version using headers
@@ -7,15 +9,12 @@ description: TODO
 One typical way to define expectations on an API is to use versioning. While there are several ways to do this—for example, refer to [this article from Nordic APIs](https://nordicapis.com/everything-you-need-to-know-about-api-versioning/)—we are going to use a header to decide which API backend to actually activate for the request.
 
 {% hint style="warning" %}
-
 [GraphQL is a different beast when it comes to versioning](https://graphql.org/learn/best-practices/#versioning). See this section as REST-specific in its details, but a good idea overall as long as you adapt to what versioning means for your protocol.
-
 {% endhint %}
 
 **🎯 Example**: See [`src/FakeUser/controllers/FakeUserController.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/controllers/FakeUserController.ts) and note how the header is handled in `checkInput()`.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
-
 ```typescript
 /**
  * @description Check and validate input.
@@ -33,7 +32,6 @@ function checkInput(event: APIGatewayProxyEvent): string {
   return clientVersion || "";
 }
 ```
-
 {% endcode %}
 
 {% hint style="danger" %}

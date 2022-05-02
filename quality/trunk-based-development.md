@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Don't overthink it, just push to "main". But for the love of God, ensure you
+  have testing and hygiene in place.
 ---
 
 # 🛣 Trunk-Based Development

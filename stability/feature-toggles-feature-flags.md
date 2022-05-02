@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Go from static configs to dynamic configuration and spend less time deploying.
 ---
 
 # 🏁 Feature toggles ("feature flags")
@@ -13,15 +13,12 @@ The feature function is located at [`src/FeatureToggles`](https://github.com/mik
 Unknown (or missing, non-existing, null...) users get the `standard` user group access.
 
 {% hint style="info" %}
-
 Note that different feature toggle services or implementations may differ in how they exactly apply toggles, and how they work. In our case here, we apply group-level toggles rather than request individual flags, if nothing else than for simplicity of demonstration.
-
 {% endhint %}
 
 **🎯 Example**: The full configuration you can use as your template looks like the one below. Notice how it's segmented on the group level:
 
 {% code title="src/FeatureToggles/config/mock.toggles.json" %}
-
 ```json
 {
   "error": {
@@ -55,13 +52,10 @@ Note that different feature toggle services or implementations may differ in how
   }
 }
 ```
-
 {% endcode %}
 
 You can update the flags as you want, to get the effects you need, without requiring redeploying the code!
 
 {% hint style="info" %}
-
-Refer to [FeatureFlags.io](https://featureflags.io) and to [Unleash](https://www.getunleash.io)'s documentation on [activation strategies](https://docs.getunleash.io/user_guide/activation_strategy) for inspiration.
-
+Refer to [FeatureFlags.io](https://featureflags.io) and to [Unleash](https://www.getunleash.io)'s documentation on [activation strategies](https://docs.getunleash.io/user\_guide/activation\_strategy) for inspiration.
 {% endhint %}

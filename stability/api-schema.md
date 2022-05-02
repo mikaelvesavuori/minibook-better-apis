@@ -1,5 +1,7 @@
 ---
-description: TODO
+description: >-
+  Make an API schema lest you want others to literally have to conduct black box
+  penetration testing to understand your API.
 ---
 
 # 📄 API schema
@@ -44,7 +46,7 @@ function checkInput(event: APIGatewayProxyEvent): string {
 ```
 {% endcode %}
 
-{% hint style="info" %}
+{% hint style="success" %}
 Strongly consider using security tooling like 42Crunch's [VS Code plugin for OpenAPI](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi).
 
 Note also that because this is intended as a public API, the OAS security object is not present.

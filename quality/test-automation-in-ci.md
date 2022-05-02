@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: So many ways to test... But always let the machine do it for you!
 ---
 
 # 🏭 Test automation in CI
@@ -9,34 +9,28 @@ First, let's look at what I personally call "defensive testing", that is, any ty
 We need to establish clear boundaries and expectations of where our work ends, and someone else's work begins. I really this were a technical topic with clear answers, but the more I work with people, the more I keep getting surprised by how little teams do to precisely define their boundaries.
 
 {% hint style="info" %}
-
 It's well worth understanding (and practically implementing!) the concept [_bounded context_](https://martinfowler.com/bliki/BoundedContext.html) in your product/project.
-
 {% endhint %}
 
 **🎯 Example 1**: To not be overloaded with other's services (though we may be dependent on them) we can conduct API mocking to mock away external dependencies. For this purpose, we choose to use [Mock Service Worker](https://mswjs.io). See [`tests/mocks/handlers.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/mocks/handlers.ts). The generic pattern looks as easy as this:
 
 {% code title="tests/mocks/handlers.ts" %}
-
 ```typescript
 rest.get(API_ENDPOINT, (req, res, ctx) => {
   return res(ctx.status(200), ctx.json(apiResponse));
 });
 ```
-
 {% endcode %}
 
 **🎯 Example 2**: Next up we set up [contract testing](https://sqa.stackexchange.com/a/42064) using [TripleCheck CLI](https://github.com/mikaelvesavuori/triplecheck-cli). Contract testing means that we can easily verify if our assumptions of services and their interfaces are correct, but we skip verifying the exact semantics of the response. It's enough that the shape or syntax is right.
 
 {% hint style="info" %}
-
 For wider scale and bigger system landscapes, consider using the [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) to be able to store and load contracts from a centralized source.
-
 {% endhint %}
 
 See [`triplecheck.config.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/triplecheck.config.json) and the TripleCheck documentation linked above.
 
-**🎯 Example 3**: During the CI stage we will deploy a complete, realistic stack with the most recent version. First, we'll do some basic [smoke tests](<https://en.wikipedia.org/wiki/Smoke_testing_(software)>) to verify we don't have a major malfunction on our hands. _In reality, smoke tests are just lighter types of integration tests._
+**🎯 Example 3**: During the CI stage we will deploy a complete, realistic stack with the most recent version. First, we'll do some basic [smoke tests](https://en.wikipedia.org/wiki/Smoke\_testing\_\(software\)) to verify we don't have a major malfunction on our hands. _In reality, smoke tests are just lighter types of integration tests._
 
 See [`tests/synthetics/smoketest.sh`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/tests/synthetics/smoketest.sh); it's just a very basic `curl` call!
 
