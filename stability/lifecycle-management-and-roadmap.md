@@ -14,7 +14,7 @@ Refer to the pattern [Aggressive Obsolescence](https://microservice-api-patterns
 
 Beyond these, we add the notion of being `removed` which is the point at which a given feature has been completely purged from the source code.
 
-**🎯 Example**: We'd keep a roadmap like the below in our docs. Imagine that today is 25 November 2021 and see below what our code base represents:
+**🎯 Example**: We'd keep a roadmap like the below in our docs. Imagine that today is 25 November 2021 and see below what our code base would represent at that point in time:
 
 | Feature                                   | Group/Flag            | Beta start      | Stable          | Sunset         | Deprecated       | Removed         |
 | ----------------------------------------- | --------------------- | --------------- | --------------- | -------------- | ---------------- | --------------- |
