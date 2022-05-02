@@ -8,6 +8,8 @@ You'll often see tutorials and such talking about [authentication](https://auth0
 
 **[Authorization](https://www.osohq.com/academy), on the other hand, is knowing what this person is allowed to do.**
 
+Only trivial systems will require no authorization, so prepare to think about how you want your model to work and how to construct your permission sets.
+
 {% hint style="info" %}
 
 Authentication is entirely out of scope here, whereas trivial authorization _is_ in scope.
