@@ -16,7 +16,7 @@ For a super-lightweight AWS-based and flexible solution, you might want to consi
 
 For a lighter-weight system, I'd argue that the reasonable data to pull in would be a subset of the metadata (and processes and output) we have generated and written previously. In a corporate context, we'd want to ensure that the source of truth of the state of our systems/applications resides with the codebase—Not in a closed tool like Sharepoint or Confluence or similar.
 
-**🎯 Example**: See [`manifest.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/manifest.json) for a napkin sketch of how one could work with service metadata. Of course, this is not a functional solution, as you'd need something to extract that data and store it somewhere meaningful. This format is also very similar to the one used in [catalogist](https://github.com/mikaelvesavuori/catalogist).
+**🎯 Example**: See [`manifest.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/manifest.json) for a napkin sketch of how one could work with service metadata if you had somewhere to send it and store it, during the CI stage. _This format is also very similar to the one used in [catalogist](https://github.com/mikaelvesavuori/catalogist)_.
 
 {% code title="manifest.json" %}
 
