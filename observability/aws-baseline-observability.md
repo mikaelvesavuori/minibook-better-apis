@@ -33,23 +33,6 @@ plugins:
 custom:
   alerts:
     dashboards: true
-
-functions:
-  FakeUser:
-    [...]
-    alarms:
-      - name: CanaryCheck
-        namespace: 'AWS/Lambda'
-        metric: Errors
-        threshold: 3
-        statistic: Sum
-        period: 60
-        evaluationPeriods: 1
-        comparisonOperator: GreaterThanOrEqualToThreshold
-    deploymentSettings:
-      [...]
-      alarms:
-        - FakeUserCanaryCheckAlarm
 ```
 
 {% endcode %}
