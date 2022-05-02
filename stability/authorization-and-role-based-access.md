@@ -41,7 +41,7 @@ functions:
 
 **🎯 Example 2**: In our application we use a handcrafted [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (role-based access control) to attach a user group to each of the users. The user group is added as a flag in the subsequent call to the actual service.
 
-In [`src/FeatureToggles/config/userPermissions.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/config/userPermissions.ts) users are matched like so:
+In [`src/FeatureToggles/usecases/getUserFeatureToggles`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/4c28f13ce65cb0d05cb09154a27b8949bcd1641a/src/FeatureToggles/usecases/getUserFeatureToggles.ts) users are matched like so:
 
 {% code title="src/FeatureToggles/usecases/getUserFeatureToggles.ts" %}
 
