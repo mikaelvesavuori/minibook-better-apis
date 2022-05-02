@@ -60,8 +60,8 @@ Note that different feature toggle services or implementations may differ in how
 
 You can update the flags as you want, to get the effects you need, without requiring redeploying the code!
 
-{% code style="info" %}
+{% hint style="info" %}
 
 Refer to [FeatureFlags.io](https://featureflags.io) and to [Unleash](https://www.getunleash.io)'s documentation on [activation strategies](https://docs.getunleash.io/user_guide/activation_strategy) for inspiration.
 
-{% endcode %}
+{% endhint %}
