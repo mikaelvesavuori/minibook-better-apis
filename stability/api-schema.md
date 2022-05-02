@@ -4,7 +4,13 @@ description: TODO
 
 # 📄 API schema
 
-An API schema describes our API in a standardized way. You can write schemas by hand, use tooling to generate them, or go with services like [Stoplight](https://stoplight.io), [Bump](https://bump.sh), [Readme](https://readme.com), and API clients like [Insomnia](https://insomnia.rest/product/design) that sometimes have capabilities to design APIs, too.
+An API schema describes our API in a standardized way. API schemas can be validated, tested, and linted to ensure that they correspond to given standards. It's important to understand that in most cases _the API schema is not the API itself_.
+
+You can either:
+
+- Write schemas by hand
+- Generate schemas with the help of tooling
+- Or go with services like [Stoplight](https://stoplight.io), [Bump](https://bump.sh), [Readme](https://readme.com), and API clients like [Insomnia](https://insomnia.rest/product/design) that sometimes have capabilities to design APIs, too.
 
 **When you actually have a schema, make sure to make it accessible and visible (that's our reason for using Bump in the code part of this book).**
 
@@ -52,6 +58,6 @@ Note that because this is intended as a public API, the OAS security object is n
 
 {% hint style="info" %}
 
-For GraphQL, consider if something like[Apollo Studio](https://www.apollographql.com/docs/studio/) might be a way to cover this area for your needs.
+For GraphQL, consider if something like [Apollo Studio](https://www.apollographql.com/docs/studio/) might be a way to cover this area for your needs.
 
 {% endhint %}
