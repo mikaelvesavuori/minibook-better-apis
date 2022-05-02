@@ -1,6 +1,8 @@
 # 🪵 Structured logger
 
-Another best practice is to treat logs as a source of enriched data rather than as plain, individual strings. To do so, we need to have a structured approach to outputting them. In my implementation project, I'll demonstrate a handcrafted logging utility to help us do this in an easy way that nobody can fail using correctly.
+Another best practice is to [treat logs as a source of enriched data rather than as plain, individual strings](https://www.mostafableu.com/blog/why-you-should-care-about-structured-logging/). To do so, we need to have a structured approach to outputting them.
+
+In my implementation project, I'll demonstrate a handcrafted logging utility to help us do this in an easy way that nobody can fail using correctly.
 
 {% hint style="info" %}
 
@@ -25,7 +27,7 @@ logger.error("My error!");
 
 {% hint style="info" %}
 
-Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log` (etc) so you will need to import it everywhere you want to use it.
+Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log()` (etc) so you will need to import it everywhere you want to use it.
 
 {% endhint %}
 
