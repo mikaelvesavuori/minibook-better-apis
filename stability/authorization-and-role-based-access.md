@@ -10,7 +10,7 @@ You'll often see tutorials and such talking about [authentication](https://auth0
 
 {% hint style="info" %}
 
-Authentication is entirely out of scope here, whereas trivial authorization IS in scope.
+Authentication is entirely out of scope here, whereas trivial authorization _is_ in scope.
 
 {% endhint %}
 
@@ -39,9 +39,9 @@ functions:
 
 {% endcode %}
 
-In our self-contained, basic demo we use a handcrafted [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (role-based access control) to attach a user group to each of the users. The user group is added as a flag in the subsequent call to the actual service.
+**🎯 Example 2**: In our application we use a handcrafted [RBAC](https://en.wikipedia.org/wiki/Role-based_access_control) (role-based access control) to attach a user group to each of the users. The user group is added as a flag in the subsequent call to the actual service.
 
-**🎯 Example 2**: In [`src/FeatureToggles/config/userPermissions.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/config/userPermissions.ts) users are matched like so:
+In [`src/FeatureToggles/config/userPermissions.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FeatureToggles/config/userPermissions.ts) users are matched like so:
 
 {% code title="src/FeatureToggles/config/userPermissions.ts" %}
 
@@ -59,4 +59,8 @@ export const userPermissions: Record<string, UserGroup> = {
 
 {% endcode %}
 
+{% hint style="info" %}
+
 For more full-fledged implementations, consider tools like [Oso](https://www.osohq.com) to authorize on the overall "access level". [See for example this demo](https://www.osohq.com/post/add-authorization-to-a-serverless-nodejs-app) using a similar serverless stack, or the plain [quick start version](https://docs.osohq.com/node/getting-started/quickstart.html).
+
+{% endhint %}
