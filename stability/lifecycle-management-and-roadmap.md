@@ -4,7 +4,9 @@ description: TODO
 
 # 🗺 Lifecycle management and roadmap
 
-We can follow the convention where we divide an API's lifecycle into `design`, `lifetime`, `sunset`, and `deprecation` phases.
+More and more companies and products are using _public roadmaps_ (see for example [GitHub's public roadmap](https://github.com/github/roadmap)). Public or not, ensuring that other enterprise teams and similar stakeholders know what you are doing should be considered a _bare minimum_.
+
+We can follow a basic convention where we divide an API's lifecycle into `design`, `lifetime`, `sunset`, and `deprecation` phases.
 
 {% hint style="info" %}
 
@@ -21,4 +23,4 @@ Beyond these, we add the notion of being `removed` which is the point at which a
 | Use hardcoded response                    | N/A                   | 1 August 2021   | 8 August 2021   | 1 October 2021 | 15 November 2021 | 15 January 2022 |
 | Use RandomUser instead of JSONPlaceholder | Group `devNewFeature` | 1 November 2021 | 15 January 2022 | N/A            | N/A              | N/A             |
 
-This gives a clear visibility into the plans and current actions affecting your API. More and more companies and products are using _public roadmaps_ (see for example [GitHub's public roadmap](https://github.com/github/roadmap)). At any rate, ensuring that other enterprise teams and similar stakeholders know what you are doing should be considered a bare minimum.
+This takes only a few minutes to set up, but already gives others clear visibility into the plans and current actions affecting your API.
