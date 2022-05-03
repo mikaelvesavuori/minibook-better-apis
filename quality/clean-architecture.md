@@ -24,11 +24,11 @@ FakeUser
 └───usecases
 ```
 
-What we're seeing is a somewhat simplified _Clean Architecture_ structure. One of several tenets of Robert Martin's [Clean Architecture concept](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is to produce [acyclic code](https://en.wikipedia.org/wiki/Directed\_acyclic\_graph). You can see that there are no cyclical relations in the [Arkit diagrams](workshop/architecture-diagrams/). This, among other touches, means that our code is easy to understand, easy to test and debug, and that it is easy to make stable, almost entirely by just logically organizing the code!
+What we're seeing is a somewhat simplified _Clean Architecture_ structure. One of several tenets of Robert Martin's [Clean Architecture concept](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) is to produce [acyclic code](https://en.wikipedia.org/wiki/Directed_acyclic_graph). You can see that there are no cyclical relations in the [Arkit diagrams](workshop/architecture-diagrams/). This, among other touches, means that our code is easy to understand, easy to test and debug and that it is easy to make stable, almost entirely by just logically organizing the code!
 
-Like Martin, I'm also taking cues from [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven\_design), where we use the ["entity"](https://khalilstemmler.com/articles/typescript-domain-driven-design/entities/) concept to refer to "rich domain models", as opposed to anemic domain models:
+Like Martin, I'm also taking cues from [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design), where we use the ["entity"](https://khalilstemmler.com/articles/typescript-domain-driven-design/entities/) concept to refer to "rich domain models", as opposed to anemic domain models:
 
-> In Martin’s seminal \[Patterns of Enterprise Application Architecture] book (2002), a Domain Model is defined as **'an object model of the domain that incorporates both behavior and data'**. This clearly sets it apart from Entity Objects, which are object representations of only the data stored in a database (relational or not), while the behavior is located in separate classes instead. Note that this divide is not really a layering, it’s just procedures working with pure data structures.
+> In Martin’s seminal \[Patterns of Enterprise Application Architecture] book (2002), a Domain Model is defined as **an object model of the domain that incorporates both behavior and data'**. This clearly sets it apart from Entity Objects, which are object representations of only the data stored in a database (relational or not), while the behavior is located in separate classes instead. Note that this divide is not really a layering, it’s just procedures working with pure data structures.
 
 — Source: [Codecentric blog](https://blog.codecentric.de/en/2019/10/ddd-vs-anemic-domain-models/)
 
@@ -42,4 +42,4 @@ Like Martin, I'm also taking cues from [Domain Driven Design](https://en.wikiped
 To keep it short here, I'll just refer to [Robert Martin's original post on clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) and [Clean architecture for the rest of us](https://pusher.com/tutorials/clean-architecture-introduction/) for more details. Also, see [Khalil Stemmler's article on how CA and DDD intersect](https://khalilstemmler.com/articles/software-design-architecture/domain-driven-design-vs-clean-architecture/) if that floats your boat.
 {% endhint %}
 
-Clean architecture isn't a revolutionary concept: it's just the best and most logical realization (I feel) so far for questions around code organization that has lingered for decades.
+Clean architecture isn't a revolutionary concept: it's just the best and most logical realization (I feel) so far for questions around code organization that have lingered for decades.
