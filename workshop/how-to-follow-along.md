@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Read and learn, or code and learn? Your choice!
 ---
 
 # How to follow along

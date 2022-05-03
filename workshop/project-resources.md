@@ -1,7 +1,3 @@
----
-description: TODO
----
-
 # Project resources
 
 The application source code is available on [GitHub](https://github.com/mikaelvesavuori/better-apis-workshop).

@@ -1,8 +1,12 @@
 ---
-description: TODO
+description: Let's go through pros and cons for a traditional vs "modern" approach to environments.
 ---
 
 # Weighing between a hardware- or a software-oriented approach
+
+## 🖥️ The benefits of hardware-segregated environments
+
+- TODO
 
 ## 🖥️ The drawbacks of hardware-segregated environments
 
@@ -12,6 +16,10 @@ description: TODO
 - As a consequence, such "pre-baked" configuration tests may start becoming large-scale blocking, manual tests
 - There may be significant cost overhead with a higher count of static environments
 - There is most likely a significant complexity overhead with a higher count of static environments
+
+## 🧑‍💻 The benefits of a software-defined, dynamic environment
+
+- TODO
 
 ## 🧑‍💻 The drawbacks of a software-defined, dynamic environment
 

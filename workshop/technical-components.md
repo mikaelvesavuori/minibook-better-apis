@@ -1,7 +1,3 @@
----
-description: TODO
----
-
 # Technical components
 
 Services used are:

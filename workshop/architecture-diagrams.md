@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Diagrams that try to make sense of the various views of the solution.
 ---
 
 # Architecture diagrams

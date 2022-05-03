@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: Optional if you want to do this as a time-boxed assignment.
 ---
 
 # Workshop assignment

@@ -1,5 +1,5 @@
 ---
-description: TODO
+description: How I choose to solve, and demonstrate strategies, that make up our solution.
 ---
 
 # My solution pitch

@@ -1,10 +1,8 @@
 ---
-description: TODO
+description: API docs that apply to the full "finished" state.
 ---
 
 # API documentation
-
-These apply to the full "finished" state.
 
 ## Fake user
 
