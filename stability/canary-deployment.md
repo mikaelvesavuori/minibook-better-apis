@@ -8,7 +8,7 @@ The _traditional_ way to deploy software is as one huge chunk that becomes insta
 
 **This notion is what makes managers ask for counter-intuitive things like code freeze and all-hands-on-deck deployments. This is dumb and wrong and helps no-one. Let's forever end those days!**
 
-TODO something
+Matt Casperson, writing for The New Stack, deftly portrays the journey that many are now making when it comes to finding a new "truth" when it comes to testing best practices:
 
 > [...] What I really wanted to do was leverage the existing microservice stack deployed to a shared environment while locally running the one microservice I was tweaking and debugging. This process would remove the need to reimplement live integrations for the sake of isolated local development, which was appealing because these live integrations would be the first things to be replaced with test doubles in any automated testing anyway. It would also create the tight feedback loop between the code I was working on and the external platforms that validated the output, which was necessary for the kind of “Oops, I used the wrong quotes, let me fix that” workflow I found myself in.
 >
@@ -16,7 +16,7 @@ TODO something
 >
 > The post describes parallel testing, which involves creating a complete test environment isolated from the production environment. I suspect most development teams are familiar with test environments. However, the post goes on to highlight the limitations of a test environment, including additional hardware costs, synchronization issues, unreliable testing and inaccurate capacity testing.
 >
-> The alternative is testing in production. The post identifies the requirements to support this kind of testing:
+> The alternative is **testing in production**. The post identifies the requirements to support this kind of testing:
 >
 > There are two basic requirements that emerge from testing in production, which also form the basis of multitenant architecture:
 >
