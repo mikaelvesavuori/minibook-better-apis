@@ -4,8 +4,6 @@ description: How I choose to solve, and demonstrate strategies, that make up our
 
 # My solution pitch
 
-_**Note**: As the writer of this somewhat elaborate project, yes, it certainly took me more than 2 hours to make all of this! But in fact, the actual implementation and diagramming probably were not much more than that._
-
 We're going to cut down on environment sprawl by using a **single, dynamic environment** instead of multiple hardware-segregated environments (like `dev`, `staging`, `prod` setups) to deliver our stable, qualitative, and observable application.
 
 The only other environment we'll use is a non-user-facing **CI environment for non-production testing**.
