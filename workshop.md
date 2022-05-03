@@ -6,3 +6,4 @@ This section outlines the prep work, resources, and high-level details on how I 
 - [Workshop assignment](workshop/workshop-assignment.md)
 - [How to follow along](workshop/how-to-follow-along.md)
 - [My solution pitch](workshop/my-solution-pitch.md)
+- [The application](workshop/the-application.md)
