@@ -43,7 +43,7 @@ logger.log({
 ```
 
 {% hint style="info" %}
-Note: As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log()` (etc) so you will need to import it everywhere you want to use it.
+As opposed to some solutions, in our case, the Logger will not replace the vanilla `console.log()` (etc) so you will need to import it everywhere you want to use it.
 {% endhint %}
 
 Using it, your logs will then all follow the format:
