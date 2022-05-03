@@ -6,7 +6,8 @@ description: Let's go through pros and cons for a traditional vs "modern" approa
 
 ## 🖥️ The benefits of hardware-segregated environments
 
-- TODO
+- Very easy to understand conceptually
+- Should result in very good separation of environments
 
 ## 🖥️ The drawbacks of hardware-segregated environments
 
@@ -19,11 +20,15 @@ description: Let's go through pros and cons for a traditional vs "modern" approa
 
 ## 🧑‍💻 The benefits of a software-defined, dynamic environment
 
-- TODO
+- Less architectural complexity
+- Cheaper with fewer environments
+- No need to keep environments in sync
+- Realistically promotes modern practices: "testing in production", trunk-based development etc.
+- Scales to more intricate and realistic scenarios (such as testing system X in mode A with customer type B in configuration D etc.)
 
 ## 🧑‍💻 The drawbacks of a software-defined, dynamic environment
 
-- Can add complexity
+- Can add solution complexity
 - Will become harder to work with in the local scope (i.e. the actual code), and more so if there are many branches
 - Requires some degree of cleanliness and pruning (governance even) to control, so things don't grow out of hand
 
