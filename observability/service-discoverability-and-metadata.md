@@ -6,7 +6,7 @@ description: How to keep track of all of your services?
 
 [Service discovery](https://stackoverflow.com/questions/37148836/what-is-service-discovery-and-why-do-you-need-it) seems to be a very hot topic among the Kubernetes crowd. With serverless FaaS like we are using here (AWS Lambda), that's not really an interesting discussion. However, discoverability is not just a technical question—it's also something that absolutely relates to the social, organic, and management layers.
 
-At some point that _single_ function will be one service, which will soon maybe become hundreds of services and then thousands of functions. **How to keep track of them?**
+At some point, that _single_ function will be one service, which will soon maybe become hundreds of services and then thousands of functions. **How to keep track of them?**
 
 To some extent, it's possible to get a high-level picture inside of AWS or by being a CLI crusader. Unfortunately, if you are not, then there is no option unless you buy, build, or adapt some open-source solution.
 
@@ -21,6 +21,7 @@ For a lighter-weight system, I'd argue that the reasonable data to pull in would
 **🎯 Example**: See [`manifest.json`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/manifest.json) for a napkin sketch of how one could work with service metadata if you had somewhere to send it and store it, during the CI stage. _This format is also very similar to the one used in_ [_catalogist_](https://github.com/mikaelvesavuori/catalogist).
 
 {% code title="manifest.json" %}
+
 ```json
 {
   "spec": {
@@ -63,4 +64,5 @@ For a lighter-weight system, I'd argue that the reasonable data to pull in would
   }
 }
 ```
+
 {% endcode %}

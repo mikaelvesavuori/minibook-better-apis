@@ -105,7 +105,7 @@ aws cloudwatch set-alarm-state --alarm-name "myalarm" --state-value ALARM --stat
 Use the above with the `OK` state value to reset the alarm when done.
 {% endhint %}
 
-This specific solution is rudimentary, but indicative enough for how a canary solution might begin to look. I highly recommend using a deployment strategy other than the primitive "all-at-once" variety.
+This specific solution is rudimentary, but indicative enough of how a canary solution might begin to look. I highly recommend using a deployment strategy other than the primitive "all-at-once" variety.
 
 {% hint style="info" %}
 See this article at [Google Cloud Platform for more information on deployment and test strategies](https://cloud.google.com/architecture/application-deployment-and-testing-strategies).
