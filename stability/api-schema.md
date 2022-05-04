@@ -24,7 +24,7 @@ We use the [OpenAPI 3](https://swagger.io/specification/) standard. The approach
 Learn more about OpenAPI 3 over at [Swagger](https://swagger.io/docs/specification/basic-structure/) and [Documenting APIs](https://idratherbewriting.com/learnapidoc/docapis_introtoapis.html).
 {% endhint %}
 
-**🎯 Example**: See `api/schema.yml` for the OpenAPI 3 schema. Since our approach is manual, we have to implement any security and/or validations on our end in code. In our case, this is both for in-going and outgoing data. Ingoing data can be seen handled at [`src/FakeUser/controllers/FakeUserController.ts`](src/FakeUser/controllers/FakeUserController.ts) in `checkInput()`, and outgoing data is handled in [`src/FakeUser/entities/User.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/entities/User.ts) and its various validation functions like `validateName()`.
+**🎯 Example**: See [`api/schema.yml`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/api/schema.yml) for the OpenAPI 3 schema. Since our approach is manual, we have to implement any security and/or validations on our end in code. In our case, this is both for in-going and outgoing data. Ingoing data can be seen handled at [`src/FakeUser/controllers/FakeUserController.ts`](src/FakeUser/controllers/FakeUserController.ts) in `checkInput()`, and outgoing data is handled in [`src/FakeUser/entities/User.ts`](https://github.com/mikaelvesavuori/better-apis-workshop/blob/main/src/FakeUser/entities/User.ts) and its various validation functions like `validateName()`.
 
 {% code title="src/FakeUser/controllers/FakeUserController.ts" %}
 
